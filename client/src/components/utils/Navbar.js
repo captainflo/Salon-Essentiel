@@ -5,21 +5,21 @@ class Navabar extends React.Component {
     return ( 
     <div>
         <nav>
-            <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">Logo</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <div className="nav-wrapper">
+                <a href="#!" className="brand-logo">Logo</a>
+                <a href="#!" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
                 <div className="block-ul">
-                <ul class="tabs tabs-transparent hide-on-med-and-down">
-                    <li class="tab"><a href="sass.html">Contact</a></li>
-                    <li class="tab"><a href="badges.html">Price</a></li>
-                    <li class="tab"><a href="collapsible.html">About</a></li>
+                <ul className="tabs tabs-transparent hide-on-med-and-down">
+                    <li className="tab"><a href="sass.html">Contact</a></li>
+                    <li className="tab"><a href="badges.html">Price</a></li>
+                    <li className="tab"><a href="collapsible.html">About</a></li>
                 </ul>
                 </div>
                 
             </div>
          </nav>
 
-        <ul class="sidenav" id="mobile-demo">
+        <ul className="sidenav" id="mobile-demo">
             <li><a href="sass.html">Sass</a></li>
             <li><a href="badges.html">Components</a></li>
             <li><a href="collapsible.html">Javascript</a></li>
