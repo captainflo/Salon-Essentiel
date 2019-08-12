@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/captainflo/React-Vehicles.git"
+    "url": "git+https://github.com/captainflo/Salon-Essentiel.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/captainflo/React-Vehicles/issues"
+    "url": "https://github.com/captainflo/Salon-Essentiel/issues"
   },
-  "homepage": "https://github.com/captainflo/React-Vehicles#readme",
+  "homepage": "https://github.com/captainflo/Salon-Essentiel#readme",
   "dependencies": {
     "concurrently": "^4.1.1",
     "cors": "^2.8.5",
