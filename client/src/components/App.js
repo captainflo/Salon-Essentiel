@@ -19,6 +19,11 @@ class App extends React.Component {
     // Tabs
     const el = document.querySelector(".tabs");
     M.Tabs.init(el, {});
+    // Slider
+    const elems = document.querySelectorAll('.slider');
+    M.Slider.init(elems, {
+      height: 600
+    });
   }
   render(){
     return (

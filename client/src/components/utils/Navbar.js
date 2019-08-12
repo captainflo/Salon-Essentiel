@@ -5,7 +5,7 @@ class Navabar extends React.Component {
     return ( 
     <div>
         <nav>
-            <div className="nav-wrapper">
+            <div className="nav-wrapper transparent">
                 <a href="#!" className="brand-logo">Logo</a>
                 <a href="#!" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
                 <div className="block-ul">
