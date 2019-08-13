@@ -1,13 +1,70 @@
+/* Font */
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Justlefthand.ttf)format('truetype');
+  }
+/* Body */
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #212121;
+    color: #fff;
+}
 /* Navbar */
-.block-ul{
-    float: right;
+nav, footer{
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #212121, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #212121, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.block-ul .tabs .tab {
-    line-height: 64px !important;
-    height: 64px !important;
+.brand-logo{
+font-family: myFirstFont;
+margin-left: 10px;
 }
 
-.block-ul .tabs {
-    height: 64px !important;
+/* Banner */
+.slider {
+    height: auto !important;
 }
+/* .indicators{
+    display: none;
+} */
+
+/* Carousel */
+.carousel-title{
+    margin-bottom: -30px;
+    color: #fff;
+}
+
+.carousel-img{
+    border-radius: 8px;
+}
+
+/* Equipe */
+.card-content, .card-reveal{
+    color: #000000;
+}
+
+/* Tarif */
+.collection{
+    color: #000000;
+    border: 6px solid #e0e0e0 !important;
+}
+
+th {
+    color: #039be5 !important;
+    font-size: 20px;
+}
+
+.font-title{
+    font-family: myFirstFont; 
+}
+
+/* Footer */
+.contact{
+    margin-left: 10px;
+}
+
+/* @media only screen and (max-width: 600px) {
+
+  } */
+

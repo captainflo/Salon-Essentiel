@@ -1,29 +1,25 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 class Navabar extends React.Component {
   render() {
     return ( 
     <div>
-        <nav>
-            <div className="nav-wrapper transparent">
-                <a href="#!" className="brand-logo">Logo</a>
-                <a href="#!" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
-                <div className="block-ul">
-                <ul className="tabs tabs-transparent hide-on-med-and-down">
-                    <li className="tab"><a href="sass.html">Contact</a></li>
-                    <li className="tab"><a href="badges.html">Price</a></li>
-                    <li className="tab"><a href="collapsible.html">About</a></li>
-                </ul>
-                </div>
-                
-            </div>
-         </nav>
+        <nav className="nav-wrapper z-depth-5">
+          <Link to="/" className="brand-logo">Salon l'essentiel</Link>
+          <a href="#!" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+              <li className="tab"><Link to="/salon">Notre Salon</Link></li>
+              <li className="tab"><Link to="/equipe">L'équipe</Link></li>
+              <li className="tab"><Link to="/tarif">Tarif</Link></li>
+          </ul>
+        </nav>
 
         <ul className="sidenav" id="mobile-demo">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
+            <li><Link to="/">Salon l'essentiel</Link></li>
+            <li><Link to="/salon">Notre Salon</Link></li>
+            <li><Link to="/equipe">L'équipe</Link></li>
+            <li><Link to="/tarif">Tarif</Link></li>
         </ul>
     </div>
     );

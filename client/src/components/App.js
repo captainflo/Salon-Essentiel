@@ -1,7 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route} from 'react-router-dom';
 import Welcome from './Welcome';
-import Contact from './Contact';
+import Tarif from './Tarif';
+import Salon from './Salon';
+import Equipe from './Equipe';
 import Navbar from './utils/Navbar'
 import Footer from './utils/Footer'
 import './App.css'
@@ -21,8 +23,11 @@ class App extends React.Component {
     M.Tabs.init(el, {});
     // Slider
     const elems = document.querySelectorAll('.slider');
-    M.Slider.init(elems, {
-      height: 600
+    M.Slider.init(elems, {});
+    // Carousel
+    var elemCarou = document.querySelectorAll('.carousel');
+    M.Carousel.init(elemCarou, {
+      padding: 50
     });
   }
   render(){
@@ -31,7 +36,9 @@ class App extends React.Component {
       <BrowserRouter>
         <Navbar/>
         <Route exact path='/' component={Welcome}/>
-        <Route  path='/contact' component={Contact}/>
+        <Route  path='/tarif' component={Tarif}/>
+        <Route  path='/salon' component={Salon}/>
+        <Route  path='/equipe' component={Equipe}/>
         <Footer/>
       </BrowserRouter>
       
