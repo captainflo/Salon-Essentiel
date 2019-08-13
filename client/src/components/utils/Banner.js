@@ -11,7 +11,7 @@ class Banner extends React.Component {
               <img
                 src={process.env.PUBLIC_URL + "/images/salon-essentiel.jpg"}
                 alt="background"
-                class="responsive-img"
+                className="responsive-img"
               />
             }
           >
@@ -27,7 +27,7 @@ class Banner extends React.Component {
               <img
                 src={process.env.PUBLIC_URL + "/images/salon2.jpg"}
                 alt="background"
-                class="responsive-img"
+                className="responsive-img"
               />
             }
           >

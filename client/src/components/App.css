@@ -9,6 +9,10 @@ body{
     background-color: #212121;
     color: #fff;
 }
+/* Sidebar */
+.title-Sidebar{
+    font-size: 30px !important;
+}
 /* Navbar */
 nav, footer{
 background: #000000;  /* fallback for old browsers */
@@ -30,6 +34,9 @@ margin-left: 10px;
 } */
 
 /* Carousel */
+.carousel{
+    height: 300px !important;
+}
 .carousel-title{
     margin-bottom: -30px;
     color: #fff;
@@ -55,16 +62,56 @@ th {
     font-size: 20px;
 }
 
+td:last-child{
+    text-align: right;
+    padding-right: 0;
+}
+
+.long-td{
+    min-width: 125px;
+}
+
 .font-title{
     font-family: myFirstFont; 
 }
+
+/* Salon */
+.style-img{
+    border-radius: 5px !important;
+}
+
 
 /* Footer */
 .contact{
     margin-left: 10px;
 }
 
-/* @media only screen and (max-width: 600px) {
+/* Responsive */
+@media only screen and (max-width: 600px) {
+    /* Navbar */
+    .brand-logo{
+        margin-left: 0px;
+    }
+    /* Banner */
+    .caption h4{
+        font-size: 20px;
+    }
 
-  } */
+    .caption h5{
+        font-size: 18px;
+        background-color: rgba(0, 0, 0, 0.3)
+    }
+    /* Salon */
+    .flex-s {
+        display: flex;
+        flex-direction: column;
+      }
+      .box-a {
+        order: 2;
+      }
+     .back-none{
+        background-color: rgba(0, 0, 0, 0)!important;
+    }
+    
+  }
 

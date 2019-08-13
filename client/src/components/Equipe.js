@@ -12,7 +12,7 @@ class Equipe extends React.Component {
               <img
                 src={process.env.PUBLIC_URL + "/images/salon-essentiel2.jpg"}
                 alt="background"
-                class="responsive-img"
+                className="responsive-img"
               />
             }
           >
@@ -30,27 +30,27 @@ class Equipe extends React.Component {
           <h3 className="font-title">Notre Team</h3>
           <div className="row">
             <div className="col m4 s12">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
+              <div className="card">
+                <div className="card-image waves-effect waves-block waves-light">
                   <img
                     src={
                       process.env.PUBLIC_URL +
                       "/images/salon-essentiel-alicia.png"
                     }
                     alt="background"
-                    class="activator responsive-img"
+                    className="activator responsive-img"
                   />
                 </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">
-                    Alice<i class="material-icons right">more_vert</i>
+                <div className="card-content">
+                  <span className="card-title activator grey-text text-darken-4">
+                    Alice<i className="material-icons right">more_vert</i>
                   </span>
-                  Expérience <i class="fas fa-star" /> : 16 ans.<br />
-                  Spécialisté <i class="fas fa-cut" /> : Coupe et couleur.<br />
+                  Expérience <i className="fas fa-star" /> : 16 ans.<br />
+                  Spécialisté <i className="fas fa-cut" /> : Coupe et couleur.<br />
                 </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">
-                    Histoire<i class="material-icons right">close</i>
+                <div className="card-reveal">
+                  <span className="card-title grey-text text-darken-4">
+                    Histoire<i className="material-icons right">close</i>
                   </span>
                   On commence par notre petite dernière ! Arrivée en 2011,
                   Alicia est une artiste dans l'âme et saura vous faire
@@ -59,27 +59,27 @@ class Equipe extends React.Component {
               </div>
             </div>
             <div className="col m4 s12">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
+              <div className="card">
+                <div className="card-image waves-effect waves-block waves-light">
                   <img
                     src={
                       process.env.PUBLIC_URL +
                       "/images/salon-essentiel-camille.jpg"
                     }
                     alt="background"
-                    class="activator responsive-img"
+                    className="activator responsive-img"
                   />
                 </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">
-                    Camille<i class="material-icons right">more_vert</i>
+                <div className="card-content">
+                  <span className="card-title activator grey-text text-darken-4">
+                    Camille<i className="material-icons right">more_vert</i>
                   </span>
-                  Expérience <i class="fas fa-star" /> : 16 ans.<br />
-                  Spécialisté <i class="fas fa-cut" /> : Coupe et couleur.<br />
+                  Expérience <i className="fas fa-star" /> : 16 ans.<br />
+                  Spécialisté <i className="fas fa-cut" /> : Coupe et couleur.<br />
                 </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">
-                    Histoire<i class="material-icons right">close</i>
+                <div className="card-reveal">
+                  <span className="card-title grey-text text-darken-4">
+                    Histoire<i className="material-icons right">close</i>
                   </span>
                   Coiffeuse polyvalente et efficace, Camille est vraiment à
                   l'écoute de nos clients. En coiffure, elle parviendra toujours
@@ -88,27 +88,27 @@ class Equipe extends React.Component {
               </div>
             </div>
             <div className="col m4 s12">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
+              <div className="card">
+                <div className="card-image waves-effect waves-block waves-light">
                   <img
                     src={
                       process.env.PUBLIC_URL +
                       "/images/salon-essentiel-delphine.png"
                     }
                     alt="background"
-                    class="activator responsive-img"
+                    className="activator responsive-img"
                   />
                 </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">
-                    Delphine<i class="material-icons right">more_vert</i>
+                <div className="card-content">
+                  <span className="card-title activator grey-text text-darken-4">
+                    Delphine<i className="material-icons right">more_vert</i>
                   </span>
-                  Expérience <i class="fas fa-star" /> : 16 ans.<br />
-                  Spécialisté <i class="fas fa-cut" /> : Coupe et couleur.<br />
+                  Expérience <i className="fas fa-star" /> : 16 ans.<br />
+                  Spécialisté <i className="fas fa-cut" /> : Coupe et couleur.<br />
                 </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">
-                    Histoire<i class="material-icons right">close</i>
+                <div className="card-reveal">
+                  <span className="card-title grey-text text-darken-4">
+                    Histoire<i className="material-icons right">close</i>
                   </span>
                   Polyvalente, cette coiffeuse expérimentée est arrivée il y a
                   déjà 18 ans dans notre salon. Elle respire la joie de vivre,
@@ -119,54 +119,54 @@ class Equipe extends React.Component {
           </div>
           <div className="row">
             <div className="col m4 s12">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
+              <div className="card">
+                <div className="card-image waves-effect waves-block waves-light">
                   <img
                     src={
                       process.env.PUBLIC_URL +
                       "/images/salon-essentiel-nathalie.png"
                     }
                     alt="background"
-                    class="activator responsive-img"
+                    className="activator responsive-img"
                   />
                 </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">
-                    Nathalie<i class="material-icons right">more_vert</i>
+                <div className="card-content">
+                  <span className="card-title activator grey-text text-darken-4">
+                    Nathalie<i className="material-icons right">more_vert</i>
                   </span>
-                  Expérience <i class="fas fa-star" /> : 16 ans.<br />
-                  Spécialisté <i class="fas fa-cut" /> : Coupe et couleur.<br />
+                  Expérience <i className="fas fa-star" /> : 16 ans.<br />
+                  Spécialisté <i className="fas fa-cut" /> : Coupe et couleur.<br />
                 </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">
-                    Histoire<i class="material-icons right">close</i>
+                <div className="card-reveal">
+                  <span className="card-title grey-text text-darken-4">
+                    Histoire<i className="material-icons right">close</i>
                   </span>
                   Notre technicienne en titre, présente depuis le début de l'aventure, son expérience en tant que coloriste est un atout pour notre salon !
                 </div>
               </div>
             </div>
             <div className="col m4 s12">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
+              <div className="card">
+                <div className="card-image waves-effect waves-block waves-light">
                   <img
                     src={
                       process.env.PUBLIC_URL +
                       "/images/salon-essentiel-jean-christophe.jpg"
                     }
                     alt="background"
-                    class="activator responsive-img"
+                    className="activator responsive-img"
                   />
                 </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">
-                    Jean Christophe<i class="material-icons right">more_vert</i>
+                <div className="card-content">
+                  <span className="card-title activator grey-text text-darken-4">
+                    Jean Christophe<i className="material-icons right">more_vert</i>
                   </span>
-                  Expérience <i class="fas fa-star" /> : 16 ans.<br />
-                  Spécialisté <i class="fas fa-cut" /> : Coupe et couleur.<br />
+                  Expérience <i className="fas fa-star" /> : 16 ans.<br />
+                  Spécialisté <i className="fas fa-cut" /> : Coupe et couleur.<br />
                 </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">
-                    Histoire<i class="material-icons right">close</i>
+                <div className="card-reveal">
+                  <span className="card-title grey-text text-darken-4">
+                    Histoire<i className="material-icons right">close</i>
                   </span>
                   Catalyseur d'énergies, Jean-Christophe est spécialisé dans la coiffure masculine, il apporte chaque jour sa bonne humeur et vous la fera partager !
                 </div>

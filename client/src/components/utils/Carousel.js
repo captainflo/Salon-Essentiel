@@ -13,19 +13,23 @@ class Carousel extends React.Component {
   render(){
     return (
       <div>
-          <h4 className='center carousel-title'>L'essentiel en un clic!</h4>
+          <h3 className='center carousel-title font-title'>L'essentiel en un clic!</h3>
           <div className="carousel">
             <Link className="carousel-item center" to="/salon">
-              <i style={{fontSize: '100px'}} class="fas fa-home "></i>
+              <i style={{fontSize: '100px'}} className="fas fa-home "></i>
               <p>Notre Salon</p>
             </Link>
-            <Link className="carousel-item center" to="/salon">
-              <i style={{fontSize: '100px'}} class="fas fa-users"></i>
+            <Link className="carousel-item center" to="/equipe">
+              <i style={{fontSize: '100px'}} className="fas fa-users"></i>
               <p>Notre Equipe</p>
             </Link>
             <Link className="carousel-item center" to="/tarif">
-              <i style={{fontSize: '100px'}} class="fas fa-comment-dollar"></i>
+              <i style={{fontSize: '100px'}} className="fas fa-comment-dollar"></i>
               <p>Nos Tarifs</p>
+            </Link>
+            <Link className="carousel-item center" to="/contact">
+            <i style={{fontSize: '100px'}} className="fas fa-comment-dots"></i>
+              <p>Contact</p>
             </Link>
           </div>
     </div>

@@ -16,8 +16,8 @@ class Navabar extends React.Component {
             <div className="col l4 offset-l2 s12">
               <h5 className="white-text">Links</h5>
               <ul>
-                <li><a className="grey-text text-lighten-3" href="#!"><i class="fab fa-facebook-square"></i> Facebook</a></li>
-                <li><a className="grey-text text-lighten-3" href="#!"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a className="grey-text text-lighten-3" href="https://www.facebook.com/pageSalonLEssentiel/?fref=ts" target='blank'><i className="fab fa-facebook-square"></i> Facebook</a></li>
+                <li><a className="grey-text text-lighten-3" href="https://www.instagram.com/salon_lessentiel/" target='blank'><i className="fab fa-instagram"></i> Instagram</a></li>
               </ul>
             </div>
           </div>
@@ -25,7 +25,7 @@ class Navabar extends React.Component {
         <div className="footer-copyright">
           <div className="container">
           © 2019 Copyright salon l'essentiel
-          <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
+          {/* <a className="grey-text text-lighten-4 right" href="#!">More Links</a> */}
           </div>
         </div>
       </footer>

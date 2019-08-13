@@ -11,13 +11,13 @@ function Tarif() {
               <img
                 src={process.env.PUBLIC_URL + "/images/salon-essentiel4.jpg"}
                 alt="background"
-                class="responsive-img"
+                className="responsive-img"
               />
             }
           >
             <Caption placement="right">
               <h4>Un salon unique</h4>
-              <h5 className="light grey-text text-lighten-3">
+              <h5 className="light grey-text text-lighten-3 back-none">
                 Précision, qualité et convivialité
                 <br /> sont au rendez-vous
               </h5>
@@ -62,7 +62,7 @@ function Tarif() {
                 <tr>
                   <td>Chicas (selon âge)</td>
                   <td />
-                  <td className="right">10 / 17 / 22 / 25€</td>
+                  <td className="right long-td">10 / 17 / 22 / 25 €</td>
                 </tr>
               </tbody>
             </table>
@@ -121,7 +121,7 @@ function Tarif() {
                 <tr>
                   <td>Refresher : redonnez de l'éclat à votre couleur</td>
                   <td />
-                  <td className="right">33,50 €</td>
+                  <td className="right long-td">33,50 €</td>
                 </tr>
               </tbody>
             </table>
@@ -182,7 +182,7 @@ function Tarif() {
                     Permanente, ondulation, mini-vague, décollement de racine
                   </td>
                   <td />
-                  <td className="right">de 24 € à 55 €</td>
+                  <td className="right">24 à 55 €</td>
                 </tr>
                 <tr>
                   <td>
@@ -244,7 +244,7 @@ function Tarif() {
                 <tr>
                   <td>Chicos (selon âge)</td>
                   <td />
-                  <td className="right">10 / 14 / 16 €</td>
+                  <td className="right long-td">10 / 14 / 16 €</td>
                 </tr>
                 <tr>
                   <td>Barbe</td>
