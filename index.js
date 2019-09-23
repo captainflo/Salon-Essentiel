@@ -4,10 +4,11 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 const keys = require('./config/keys');
 const cors = require('cors');
-
-
+const forceSsl = require('force-ssl-heroku');
+ 
 app.use(morgan('combined')); /*login server in your terminal */
 app.use(cors());
+app.use(forceSsl);
 
 // Routes
 
