@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-const secure = require('ssl-express-www');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
 const keys = require('./config/keys');
@@ -9,7 +8,6 @@ const cors = require('cors');
 
 app.use(morgan('combined')); /*login server in your terminal */
 app.use(cors());
-app.use(secure);
 
 // Routes
 
