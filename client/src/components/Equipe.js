@@ -43,7 +43,7 @@ class Equipe extends React.Component {
                 </div>
                 <div className="card-content">
                   <span className="card-title activator grey-text text-darken-4">
-                    Alicia<i className="material-icons right">more_vert</i>
+                    Alicia<i className="material-icons right">arrow_forward</i>
                   </span>
                   Expérience <i className="fas fa-star" /> : 10 ans.
                   <br />
@@ -74,7 +74,7 @@ class Equipe extends React.Component {
                 </div>
                 <div className="card-content">
                   <span className="card-title activator grey-text text-darken-4">
-                    Camille<i className="material-icons right">more_vert</i>
+                    Camille<i className="material-icons right">arrow_forward</i>
                   </span>
                   Expérience <i className="fas fa-star" /> : 15 ans.
                   <br />
@@ -105,7 +105,8 @@ class Equipe extends React.Component {
                 </div>
                 <div className="card-content">
                   <span className="card-title activator grey-text text-darken-4">
-                    Delphine<i className="material-icons right">more_vert</i>
+                    Delphine
+                    <i className="material-icons right">arrow_forward</i>
                   </span>
                   Expérience <i className="fas fa-star" /> : 25 ans.
                   <br />
@@ -138,7 +139,8 @@ class Equipe extends React.Component {
                 </div>
                 <div className="card-content">
                   <span className="card-title activator grey-text text-darken-4">
-                    Nathalie<i className="material-icons right">more_vert</i>
+                    Nathalie
+                    <i className="material-icons right">arrow_forward</i>
                   </span>
                   Expérience <i className="fas fa-star" /> : 35 ans.
                   <br />
@@ -170,7 +172,7 @@ class Equipe extends React.Component {
                 <div className="card-content">
                   <span className="card-title activator grey-text text-darken-4">
                     Jean Christophe
-                    <i className="material-icons right">more_vert</i>
+                    <i className="material-icons right">arrow_forward</i>
                   </span>
                   Expérience <i className="fas fa-star" /> : 30 ans.
                   <br />
