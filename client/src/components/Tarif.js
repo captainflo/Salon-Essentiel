@@ -1,15 +1,15 @@
-import React from "react";
-import { Slider, Caption, Slide } from "react-materialize";
+import React from 'react';
+import { Slider, Caption, Slide } from 'react-materialize';
 
 function Tarif() {
   return (
     <div>
-      <div style={{ height: "auto !important" }}>
-        <Slider style={{ height: "auto !important" }}>
+      <div style={{ height: 'auto !important' }}>
+        <Slider style={{ height: 'auto !important' }}>
           <Slide
             image={
               <img
-                src={process.env.PUBLIC_URL + "/images/salon-essentiel4.jpg"}
+                src={process.env.PUBLIC_URL + '/images/salon-essentiel4.jpg'}
                 alt="background"
                 className="responsive-img"
               />
@@ -18,7 +18,7 @@ function Tarif() {
             <Caption placement="right">
               <h4>Un salon unique</h4>
               <h5 className="light grey-text text-lighten-3 back-none">
-                Précision, qualité et convivialité
+                Originalité, qualité et convivialité
                 <br /> sont au rendez-vous
               </h5>
             </Caption>
@@ -57,7 +57,7 @@ function Tarif() {
                 <tr>
                   <td>Shampoing / Coiffage (cheveux longs)</td>
                   <td />
-                  <td className="right">40 €</td>
+                  <td className="right">25 €</td>
                 </tr>
                 <tr>
                   <td>Chicas (selon âge)</td>
@@ -84,7 +84,7 @@ function Tarif() {
                 <tr>
                   <td>Masque</td>
                   <td />
-                  <td className="right">8 €</td>
+                  <td className="right">10 €</td>
                 </tr>
                 <tr>
                   <td>Soins profonds</td>
@@ -203,7 +203,7 @@ function Tarif() {
               <thead>
                 <tr>
                   <th>
-                    <b>Forfait coiffure mariage</b>
+                    <b>Forfait coiffure masculine</b>
                   </th>
                 </tr>
               </thead>

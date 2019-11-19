@@ -1,16 +1,16 @@
-import React from "react";
-import { Slider, Caption, Slide } from "react-materialize";
+import React from 'react';
+import { Slider, Caption, Slide } from 'react-materialize';
 
 class Salon extends React.Component {
   render() {
     return (
       <div>
-        <div style={{ height: "auto !important" }}>
-          <Slider style={{ height: "auto !important" }}>
+        <div style={{ height: 'auto !important' }}>
+          <Slider style={{ height: 'auto !important' }}>
             <Slide
               image={
                 <img
-                  src={process.env.PUBLIC_URL + "/images/salon-essentiel5.jpeg"}
+                  src={process.env.PUBLIC_URL + '/images/salon-essentiel5.jpeg'}
                   alt="background"
                   className="responsive-img"
                 />
@@ -19,7 +19,7 @@ class Salon extends React.Component {
               <Caption placement="left">
                 <h4>Un salon unique</h4>
                 <h5 className="light grey-text text-lighten-3">
-                  Précision, qualité et convivialité
+                  Originalité, qualité et convivialité
                   <br /> sont au rendez-vous
                 </h5>
               </Caption>
@@ -41,14 +41,14 @@ class Salon extends React.Component {
             <div className="col m6">
               <img
                 src={
-                  process.env.PUBLIC_URL + "/images/salon-essentiel-salon2.jpg"
+                  process.env.PUBLIC_URL + '/images/salon-essentiel-salon2.jpg'
                 }
                 alt="background"
                 className="responsive-img style-img"
               />
             </div>
             <div className="col m6">
-              <p>
+              <p style={{ marginTop: '80px' }}>
                 Venez vous faire chouchouter et oubliez vos tracas quotidiens le
                 temps d'une pause dans un salon de coiffure à l'ambiance
                 chaleureuse et conviviale. Profitez-en pour découvrir d'autres
@@ -61,18 +61,53 @@ class Salon extends React.Component {
           </div>
           <div className="row flex-s">
             <div className="col m6 box-a">
-              <p>
-              Le Salon L'Essentiel n'est pas un salon de coiffure comme les autres, mais rassurez-vous, vous pourrez tout de même vous y faire faire une coupe ! Mais une fois que vous aurez pousser les portes de ce salon de coiffure, vous y retournerez rien que pour profiter de l'ambiance ! Il faut dire que l'équipe y est pour beaucoup ! Chacun a sa personnalité, chacun ses goûts, chacun son style !
+              <p style={{ marginTop: '80px' }}>
+                Le Salon L'Essentiel n'est pas un salon de coiffure comme les
+                autres, mais rassurez-vous, vous pourrez tout de même vous y
+                faire faire une coupe ! Mais une fois que vous aurez pousser les
+                portes de ce salon de coiffure, vous y retournerez rien que pour
+                profiter de l'ambiance ! Il faut dire que l'équipe y est pour
+                beaucoup ! Chacun a sa personnalité, chacun ses goûts, chacun
+                son style !
               </p>
             </div>
             <div className="col m6 box-b">
               <img
-                src={process.env.PUBLIC_URL + "/images/salon-essentiel-6.jpg"}
+                src={process.env.PUBLIC_URL + '/images/salon-essentiel-6.jpg'}
                 alt="background"
                 className="responsive-img style-img"
               />
             </div>
           </div>
+          <h4 className="font-title">
+            Vos produits capillaires à prix coûtant dans votre salon !
+          </h4>
+          <p>
+            Comme vous le savez peut-être déjà, vous trouverez dans votre Salon
+            L'Essentiel, à Gradignan, tous vos produits pour cheveux, vendus à
+            prix coûtant ! Nous avons effectivement constaté que les produits
+            capillaires, (shampoing, soin, gel, cire...), devenaient de plus en
+            plus chers. Par conséquent, pour continuer à utiliser des produits
+            de bonne qualité, notre clientèle se dirigeait de plus en plus vers
+            d'autres circuits de consommation, (internet, grossistes, grande
+            distribution...). Nous avons donc pris la décision de vendre nos
+            produits à prix coûtant.
+          </p>
+          <p>
+            Et comme une bonne nouvelle n'arrive jamais seule, sachez que nous
+            n'avons pas pour autant augmenté nos tarifs de coiffure, (coupe,
+            couleur, balayage...). Vous êtes ravis ? Nous aussi !
+          </p>
+          <p>
+            Nous estimons donc que notre métier doit retrouver sa place à
+            l'intérieur du salon, et que si une chose doit être mise en valeur,
+            c'est bien notre savoir-faire ! Cette action s'inscrit dans une
+            démarche de fidélisation ainsi que de recrutement de la clientèle
+            afin d'apporter un concept avantageux et innovant à celle-ci. Vous
+            comprendrez donc qu'afin de jouer le jeu jusqu'au bout, notre offre
+            de produit ne peut être applicable qu'associée à une prestation de
+            coiffure et dans un maximum de trois produits par visite.
+          </p>
         </div>
       </div>
     );
