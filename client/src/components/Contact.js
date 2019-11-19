@@ -41,7 +41,13 @@ class Contact extends React.Component {
             <div className="col m6 s6 center">
               <i className="material-icons">phone</i>
               <br></br>
-              05 56 89 48 81
+              <a
+                style={{ color: '#fff' }}
+                href="tel:0556894881"
+                className="contact"
+              >
+                05 56 89 48 81
+              </a>
             </div>
           </div>
 
