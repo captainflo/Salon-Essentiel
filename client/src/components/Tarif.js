@@ -203,7 +203,7 @@ function Tarif() {
               <thead>
                 <tr>
                   <th>
-                    <b>Forfait coiffure masculine</b>
+                    <b>Forfait coiffure mariage</b>
                   </th>
                 </tr>
               </thead>
@@ -230,7 +230,7 @@ function Tarif() {
               <thead>
                 <tr>
                   <th>
-                    <b>Forfait coiffure mariage</b>
+                    <b>Forfait coiffure masculine</b>
                   </th>
                 </tr>
               </thead>

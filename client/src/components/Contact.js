@@ -34,7 +34,7 @@ class Contact extends React.Component {
             <div className="col m6 s6 center">
               <i className="fas fa-home"></i>
               <br></br>
-              Salon L'Essentiel - Gradignan<br></br>
+              Salon L'Essentiel<br></br>
               98 Cours du Général de Gaulle<br></br>
               33170 Gradignan
             </div>
