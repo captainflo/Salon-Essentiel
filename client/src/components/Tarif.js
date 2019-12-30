@@ -47,7 +47,7 @@ function Tarif() {
                 <tr>
                   <td>Shampoing / Coiffage (cheveux courts)</td>
                   <td />
-                  <td className="right">20 €</td>
+                  <td className="right">19.50 €</td>
                 </tr>
                 <tr>
                   <td>Shampoing / Coupe / Coiffage (cheveux longs)</td>
