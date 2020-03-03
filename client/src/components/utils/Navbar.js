@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 class Navabar extends React.Component {
   render() {
@@ -11,7 +11,7 @@ class Navabar extends React.Component {
               className="logo-brand"
               src={
                 process.env.PUBLIC_URL +
-                '/images/salon-essentiel--logo-white.png'
+                "/images/salon-essentiel--logo-white.png"
               }
               alt="logo"
             />
@@ -21,16 +21,16 @@ class Navabar extends React.Component {
           </a>
           <ul className="right hide-on-med-and-down">
             <li className="tab">
-              <Link to="/salon">Notre Salon</Link>
+              <Link to="/coiffure">Notre Salon</Link>
             </li>
             <li className="tab">
               <Link to="/equipe">L'équipe</Link>
             </li>
             <li className="tab">
-              <Link to="/tarif">Tarif</Link>
+              <Link to="/tarifs">Tarifs</Link>
             </li>
             <li className="tab">
-              <Link to="/Contact"> Contact</Link>
+              <Link to="/contact"> Contact</Link>
             </li>
           </ul>
         </nav>
@@ -42,7 +42,7 @@ class Navabar extends React.Component {
                 className="logo-brand"
                 src={
                   process.env.PUBLIC_URL +
-                  '/images/salon-essentiel--logo-black.png'
+                  "/images/salon-essentiel--logo-black.png"
                 }
                 alt="logo"
               />
@@ -50,7 +50,7 @@ class Navabar extends React.Component {
           </li>
           <hr></hr>
           <li>
-            <Link to="/salon">
+            <Link to="/coiffure">
               <i className="fas fa-home "></i> Notre Salon
             </Link>
           </li>
@@ -60,12 +60,12 @@ class Navabar extends React.Component {
             </Link>
           </li>
           <li>
-            <Link to="/tarif">
-              <i className="fas fa-comment-dollar"></i> Tarif
+            <Link to="/tarifs">
+              <i className="fas fa-comment-dollar"></i> Tarifs
             </Link>
           </li>
           <li>
-            <Link to="/Contact">
+            <Link to="/contact">
               <i className="fas fa-comment-dots"></i> Contact
             </Link>
           </li>

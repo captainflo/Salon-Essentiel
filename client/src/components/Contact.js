@@ -1,17 +1,38 @@
-import React from 'react';
-import { Slider, Caption, Slide } from 'react-materialize';
-import Google from './utils/GoogleMap';
+import React from "react";
+import { Slider, Caption, Slide } from "react-materialize";
+import Google from "./utils/GoogleMap";
+import MetaTags from "react-meta-tags";
 
 class Contact extends React.Component {
   render() {
     return (
       <div>
-        <div style={{ height: 'auto !important' }}>
-          <Slider style={{ height: 'auto !important' }}>
+        <MetaTags>
+          <title>
+            Contactez le Salon L'Essentiel, salon de coiffure située à Gradignan
+          </title>
+          <meta
+            name="description"
+            content="Trouvez toutes les coordonnées du Salon L'Essentiel située à Gradignan, près de Bordeaux en Gironde et venez nous rendre visite pour vous détendre et vous faire faire une petite coupe de cheveux."
+          />
+          <meta
+            property="og:title"
+            content=" Contactez le Salon L'Essentiel, salon de coiffure située à Gradignan"
+          />
+          <meta
+            property="og:image"
+            content={
+              process.env.PUBLIC_URL + "/images/salon-essentiel--logo-black.png"
+            }
+          />
+        </MetaTags>
+        <h1 className="hide">Contact</h1>
+        <div style={{ height: "auto !important" }}>
+          <Slider style={{ height: "auto !important" }}>
             <Slide
               image={
                 <img
-                  src={process.env.PUBLIC_URL + '/images/salon-essentiel5.jpeg'}
+                  src={process.env.PUBLIC_URL + "/images/salon-essentiel5.jpeg"}
                   alt="background"
                   className="responsive-img"
                 />
@@ -42,7 +63,7 @@ class Contact extends React.Component {
               <i className="material-icons">phone</i>
               <br></br>
               <a
-                style={{ color: '#fff' }}
+                style={{ color: "#fff" }}
                 href="tel:0556894881"
                 className="contact"
               >

@@ -1,19 +1,22 @@
-import React from 'react';
-import { BrowserRouter, Route} from 'react-router-dom';
-import Welcome from './Welcome';
-import Tarif from './Tarif';
-import Salon from './Salon';
-import Equipe from './Equipe';
-import Contact from './Contact';
-import Navbar from './utils/Navbar'
-import Footer from './utils/Footer'
+import React from "react";
+import { BrowserRouter, Route } from "react-router-dom";
+import Welcome from "./Welcome";
+import Tarif from "./Tarif";
+import Salon from "./Salon";
+import Equipe from "./Equipe";
+import Contact from "./Contact";
+import Navbar from "./utils/Navbar";
+import Footer from "./utils/Footer";
+import Cookies from "./Cookies";
+import Mention from "./Mention";
+import Privacy from "./Privacy";
 
-import './App.css'
+import "./App.css";
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css/dist/js/materialize.min.js";
 
 class App extends React.Component {
-  componentDidMount(){
+  componentDidMount() {
     // Sidebar
     const elem = document.querySelector(".sidenav");
     M.Sidenav.init(elem, {
@@ -24,28 +27,30 @@ class App extends React.Component {
     const el = document.querySelector(".tabs");
     M.Tabs.init(el, {});
     // Slider
-    const elems = document.querySelectorAll('.slider');
+    const elems = document.querySelectorAll(".slider");
     M.Slider.init(elems, {});
     // Carousel
-    var elemCarou = document.querySelectorAll('.carousel');
+    var elemCarou = document.querySelectorAll(".carousel");
     M.Carousel.init(elemCarou, {
       padding: 50
     });
   }
-  render(){
+  render() {
     return (
       <div>
-      <BrowserRouter>
-        <Navbar/>
-        <Route exact path='/' component={Welcome}/>
-        <Route  path='/tarif' component={Tarif}/>
-        <Route  path='/salon' component={Salon}/>
-        <Route  path='/equipe' component={Equipe}/>
-        <Route  path='/contact' component={Contact}/>
-        <Footer/>
-      </BrowserRouter>
-      
-    </div>
+        <BrowserRouter>
+          <Navbar />
+          <Route exact path="/" component={Welcome} />
+          <Route path="/tarifs" component={Tarif} />
+          <Route path="/coiffure" component={Salon} />
+          <Route path="/equipe" component={Equipe} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/cookies" component={Cookies} />
+          <Route path="/mentions-legales" component={Mention} />
+          <Route path="/privacy" component={Privacy} />
+          <Footer />
+        </BrowserRouter>
+      </div>
     );
   }
 }

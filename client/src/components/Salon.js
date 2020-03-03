@@ -1,16 +1,50 @@
-import React from 'react';
-import { Slider, Caption, Slide } from 'react-materialize';
+import React from "react";
+import { Slider, Caption, Slide } from "react-materialize";
+import MetaTags from "react-meta-tags";
 
 class Salon extends React.Component {
   render() {
     return (
       <div>
-        <div style={{ height: 'auto !important' }}>
-          <Slider style={{ height: 'auto !important' }}>
+        <MetaTags>
+          <title>Salon l'essentiel : Salon de coiffure à Gradignan</title>
+          <meta
+            name="description"
+            content="Retrouvez votre salon de coiffure le Salon L'Essentiel, à Gradignan, pour tous types de coiffures : mèches, balayage, coupe hommes, femmes, enfants, brushing, lissage, couleurs, tie and dye, etc."
+          />
+          <meta name="keywords" content="l'essentiel gradignan"></meta>
+          <meta
+            property="og:title"
+            content="Salon l'essentiel : Salon de coiffure à Gradignan"
+          />
+          <meta
+            property="og:image"
+            content={
+              process.env.PUBLIC_URL + "/images/salon-essentiel--logo-black.png"
+            }
+          />
+        </MetaTags>
+        <div style={{ height: "auto !important" }}>
+          <div className="hide">
+            <h1>Salon l'essentiel à Gradignan</h1>
+            <h2>Présentation de l'équipe</h2>
+            <h2>Produits pour cheveux à prix coûtant à Gradignan</h2>
+            <p>Le maître mot qui règne dans notre salon, c'est CONVIVIALITÉ.</p>
+            <p>
+              Le Salon L'Essentiel n'est pas un salon de coiffure comme les
+              autres, mais rassurez-vous, vous pourrez tout de même vous y faire
+              faire une coupe ! Mais une fois que vous aurez pousser les portes
+              de ce salon de coiffure, vous y retournerez rien que pour profiter
+              de l'ambiance ! Il faut dire que l'équipe y est pour beaucoup !
+              Chacun a sa personnalité, chacun ses goûts, chacun son style !
+            </p>
+          </div>
+
+          <Slider style={{ height: "auto !important" }}>
             <Slide
               image={
                 <img
-                  src={process.env.PUBLIC_URL + '/images/salon-essentiel5.jpeg'}
+                  src={process.env.PUBLIC_URL + "/images/salon-essentiel5.jpeg"}
                   alt="background"
                   className="responsive-img"
                 />
@@ -41,14 +75,14 @@ class Salon extends React.Component {
             <div className="col m6">
               <img
                 src={
-                  process.env.PUBLIC_URL + '/images/salon-essentiel-salon2.jpg'
+                  process.env.PUBLIC_URL + "/images/salon-essentiel-salon2.jpg"
                 }
                 alt="background"
                 className="responsive-img style-img"
               />
             </div>
             <div className="col m6">
-              <p style={{ marginTop: '80px' }}>
+              <p style={{ marginTop: "80px" }}>
                 Venez vous faire chouchouter et oubliez vos tracas quotidiens le
                 temps d'une pause dans un salon de coiffure à l'ambiance
                 chaleureuse et conviviale. Profitez-en pour découvrir d'autres
@@ -61,7 +95,7 @@ class Salon extends React.Component {
           </div>
           <div className="row flex-s">
             <div className="col m6 box-a">
-              <p style={{ marginTop: '80px' }}>
+              <p style={{ marginTop: "80px" }}>
                 Le Salon L'Essentiel n'est pas un salon de coiffure comme les
                 autres, mais rassurez-vous, vous pourrez tout de même vous y
                 faire faire une coupe ! Mais une fois que vous aurez pousser les
@@ -73,7 +107,7 @@ class Salon extends React.Component {
             </div>
             <div className="col m6 box-b">
               <img
-                src={process.env.PUBLIC_URL + '/images/salon-essentiel-6.jpg'}
+                src={process.env.PUBLIC_URL + "/images/salon-essentiel-6.jpg"}
                 alt="background"
                 className="responsive-img style-img"
               />

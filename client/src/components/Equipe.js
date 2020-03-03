@@ -1,16 +1,35 @@
-import React from 'react';
-import { Slider, Caption, Slide } from 'react-materialize';
+import React from "react";
+import { Slider, Caption, Slide } from "react-materialize";
+import MetaTags from "react-meta-tags";
 
 class Equipe extends React.Component {
   render() {
     return (
       <div>
-        <div style={{ height: 'auto !important' }}>
-          <Slider style={{ height: 'auto !important' }}>
+        <MetaTags>
+          <title>Notre équipe au salon l'essentiel</title>
+          <meta
+            name="description"
+            content="Retrouvez la présentation de toute l'équipe du salon de coiffure l'essentiel."
+          />
+          <meta
+            property="og:title"
+            content="Salon de coiffure à Gradignan : Coiffeur l'essentiel"
+          />
+          <meta
+            property="og:image"
+            content={
+              process.env.PUBLIC_URL + "/images/salon-essentiel--logo-black.png"
+            }
+          />
+        </MetaTags>
+        <h1 className="hide">Notre équipe</h1>
+        <div style={{ height: "auto !important" }}>
+          <Slider style={{ height: "auto !important" }}>
             <Slide
               image={
                 <img
-                  src={process.env.PUBLIC_URL + '/images/salon-essentiel2.jpg'}
+                  src={process.env.PUBLIC_URL + "/images/salon-essentiel2.jpg"}
                   alt="background"
                   className="responsive-img"
                 />
@@ -35,7 +54,7 @@ class Equipe extends React.Component {
                   <img
                     src={
                       process.env.PUBLIC_URL +
-                      '/images/salon-essentiel-alicia.png'
+                      "/images/salon-essentiel-alicia.png"
                     }
                     alt="background"
                     className="activator responsive-img"
@@ -66,7 +85,7 @@ class Equipe extends React.Component {
                   <img
                     src={
                       process.env.PUBLIC_URL +
-                      '/images/salon-essentiel-camille.png'
+                      "/images/salon-essentiel-camille.png"
                     }
                     alt="background"
                     className="activator responsive-img"
@@ -97,7 +116,7 @@ class Equipe extends React.Component {
                   <img
                     src={
                       process.env.PUBLIC_URL +
-                      '/images/salon-essentiel-delphine.png'
+                      "/images/salon-essentiel-delphine.png"
                     }
                     alt="background"
                     className="activator responsive-img"
@@ -131,7 +150,7 @@ class Equipe extends React.Component {
                   <img
                     src={
                       process.env.PUBLIC_URL +
-                      '/images/salon-essentiel-nathalie.png'
+                      "/images/salon-essentiel-nathalie.png"
                     }
                     alt="background"
                     className="activator responsive-img"
@@ -163,7 +182,7 @@ class Equipe extends React.Component {
                   <img
                     src={
                       process.env.PUBLIC_URL +
-                      '/images/salon-essentiel-jean-christophe.jpg'
+                      "/images/salon-essentiel-jean-christophe.jpg"
                     }
                     alt="background"
                     className="activator responsive-img"

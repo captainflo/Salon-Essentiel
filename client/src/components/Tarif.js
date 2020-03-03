@@ -1,15 +1,34 @@
-import React from 'react';
-import { Slider, Caption, Slide } from 'react-materialize';
+import React from "react";
+import { Slider, Caption, Slide } from "react-materialize";
+import MetaTags from "react-meta-tags";
 
 function Tarif() {
   return (
     <div>
-      <div style={{ height: 'auto !important' }}>
-        <Slider style={{ height: 'auto !important' }}>
+      <MetaTags>
+        <title>Tarif coiffeur dans notre salon de coiffeur l'essentiel</title>
+        <meta
+          name="description"
+          content="Retrouvez l'ensemble des prestations et surtout les tarifs pratiqués dans votre salon de coiffure, le Salon l'Essentiel, situé à Gradignan."
+        />
+        <meta name="keywords" content="Tarif coiffeur"></meta>
+        <meta
+          property="og:title"
+          content="Tarif coiffeur dans notre salon de coiffeur l'essentiel"
+        />
+        <meta
+          property="og:image"
+          content={
+            process.env.PUBLIC_URL + "/images/salon-essentiel--logo-black.png"
+          }
+        />
+      </MetaTags>
+      <div style={{ height: "auto !important" }}>
+        <Slider style={{ height: "auto !important" }}>
           <Slide
             image={
               <img
-                src={process.env.PUBLIC_URL + '/images/salon-essentiel4.jpg'}
+                src={process.env.PUBLIC_URL + "/images/salon-essentiel4.jpg"}
                 alt="background"
                 className="responsive-img"
               />
@@ -26,6 +45,8 @@ function Tarif() {
         </Slider>
       </div>
       <div className="container">
+        <h1 className="hide">Tarifs de notre salon de coiffure à Gradignan</h1>
+        <h2 className="hide">Prestations de coiffure à la carte</h2>
         <h3 className="font-title">Tarif</h3>
         <div className="row">
           <div className="col m12 s12">
