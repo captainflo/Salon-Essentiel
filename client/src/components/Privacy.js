@@ -20,12 +20,16 @@ function Privacy() {
         </p>
         <p>Dernière date de Mise à jour : 01/04/2019</p>
 
-        <h2>1. Identité du responsable du traitement</h2>
+        <h2 style={{ fontSize: "40px" }}>
+          1. Identité du responsable du traitement
+        </h2>
         <p>
           Les données personnelles sont collectées par l'Annonceur du site tel
           qu'identifié dans les mentions légales.
         </p>
-        <h2>2. Les traitements relatifs à vos données personnelles</h2>
+        <h2 style={{ fontSize: "40px" }}>
+          2. Les traitements relatifs à vos données personnelles
+        </h2>
         <p>
           Notre site ne demande pas d'enregistrement nominatif à ses visiteurs
           et ne procède à aucun enregistrement nominatif pour la simple
@@ -67,7 +71,7 @@ function Privacy() {
           offres publicitaires sur et en dehors de notre site en rapport avec
           vos centres d’intérêt et, éventuellement, de votre localité.
         </p>
-        <h2>Quand ?</h2>
+        <h4>Quand ?</h4>
         <p>Nous collectons vos données notamment quand :</p>
         <li>Vous créez et utilisez un compte personnel,</li>
         <li>
@@ -78,7 +82,7 @@ function Privacy() {
         <li>
           Vous naviguez sur notre site et consultez nos produits et services.
         </li>
-        <h2>Quelles finalités ?</h2>
+        <h4>Quelles finalités ?</h4>
         <p>Nous utilisons vos données personnelles pour :</p>
         <li>Vous permettre d'utiliser nos services ;</li>
         <li>
@@ -100,7 +104,7 @@ function Privacy() {
           notre site et de nos services notamment afin d'adapter lesdites
           rubriques et lesdits contenus en fonction de votre navigation.
         </li>
-        <h2>Cookies</h2>
+        <h4>Cookies</h4>
         <p>
           Pour vous informer sur l'utilisation faite des cookies sur notre site,
           sur vos droits et vos moyens de vous y opposer, vous pouvez consulter
@@ -114,7 +118,7 @@ function Privacy() {
           </a>
           .
         </p>
-        <h2>Destinataires</h2>
+        <h4>Destinataires</h4>
         <p>Sont destinataires des données :</p>
         <li>L'annonceur et ses éventuels sous-traitants,</li>
         <li>
@@ -153,7 +157,7 @@ function Privacy() {
           sociétés ont adhéré au protocole Privacy Shield. Ces transferts sont
           en outre sécurisés par la signature de clauses contractuelles types.
         </p>
-        <h2>Durée de conservation</h2>
+        <h4>Durée de conservation</h4>
         <p>
           Si vous avez été amené à créer un compte utilisateur, vos données sont
           conservées pendant une période de 3 ans après la dernière trace
@@ -176,7 +180,7 @@ function Privacy() {
           que pendant la durée nécessaire à des fins probatoire et de gestion
           des contentieux.
         </p>
-        <h2>3. Vos droits</h2>
+        <h2 style={{ fontSize: "40px" }}>3. Vos droits</h2>
         <p>
           Conformément à la loi Informatique et Libertés du 6 janvier 1978
           modifiée, vous disposez de droits d'accès, de rectification,

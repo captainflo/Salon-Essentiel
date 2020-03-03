@@ -103,6 +103,10 @@ td:last-child{
     font-size: 30px;
 }
 
+.mention{
+    line-height: 0.8;
+}
+
 /* Responsive */
 @media only screen and (max-width: 600px) {
     /* Navbar */

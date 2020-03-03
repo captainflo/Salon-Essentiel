@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
 class Navabar extends React.Component {
   render() {
@@ -10,15 +11,15 @@ class Navabar extends React.Component {
               <h5 className="white-text">Contact</h5>
               <ul className="grey-text text-lighten-4">
                 <li>
-                  <i className="material-icons">markunread_mailbox</i>{' '}
+                  <i className="material-icons">markunread_mailbox</i>{" "}
                   <span className="contact">
                     98 Cours du Général de Gaulle 33170 Gradignan
                   </span>
                 </li>
                 <li>
-                  <i className="material-icons">phone</i>{' '}
+                  <i className="material-icons">phone</i>{" "}
                   <a
-                    style={{ color: '#fff' }}
+                    style={{ color: "#fff" }}
                     href="tel:0556894881"
                     className="contact"
                   >
@@ -46,10 +47,10 @@ class Navabar extends React.Component {
                     target="blank"
                   >
                     <img
-                      src={process.env.PUBLIC_URL + '/images/instagram.png'}
+                      src={process.env.PUBLIC_URL + "/images/instagram.png"}
                       alt="background"
-                      style={{ width: '29px' }}
-                    />{' '}
+                      style={{ width: "29px" }}
+                    />{" "}
                     Instagram
                   </a>
                 </li>
@@ -60,7 +61,23 @@ class Navabar extends React.Component {
         <div className="footer-copyright">
           <div className="container">
             © 2019 Copyright salon l'essentiel
-            {/* <a className="grey-text text-lighten-4 right" href="#!">More Links</a> */}
+            <Link className="grey-text text-lighten-4 right" to="/cookies">
+              Cookies
+            </Link>
+            <Link
+              style={{ marginRight: "10px" }}
+              className="grey-text text-lighten-4 right"
+              to="/mentions-legales"
+            >
+              Mentions légales
+            </Link>
+            <Link
+              style={{ marginRight: "10px" }}
+              className="grey-text text-lighten-4 right"
+              to="/privacy"
+            >
+              Protection de la vie privée
+            </Link>
           </div>
         </div>
       </footer>

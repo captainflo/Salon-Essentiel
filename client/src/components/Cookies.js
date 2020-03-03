@@ -23,8 +23,8 @@ function Cookies() {
       </MetaTags>
       <div className="container">
         <h1>A quoi servent nos cookies ?</h1>
-        <h2>
-          COOKIES STRICTEMENT NÉCESSAIRES À L’UTILISATION DU SERVICE DEMANDÉ
+        <h2 style={{ fontSize: "40px" }}>
+          Cookies strictement nécessaires à l'utilisation du service demandé
         </h2>
         <p>
           Ils permettent l’utilisation des principales fonctionnalités du site,
@@ -86,7 +86,7 @@ function Cookies() {
           sites de stocker des données » et cochez la case « Bloquer les cookies
           et les données de site tiers », puis cliquez sur OK.
         </p>
-        <h3>COOKIES DE MESURE D’AUDIENCE ET DE STATISTIQUES</h3>
+        <h4>COOKIES DE MESURE D’AUDIENCE ET DE STATISTIQUES</h4>
         <p>
           Ils nous permettent de faire vivre le site et d’établir des
           statistiques et comptages de fréquentation et d'utilisation de ses
@@ -96,7 +96,7 @@ function Cookies() {
           Ils nous permettent également d’analyser la navigation des internautes
           afin d’améliorer notre service ou de détecter des dysfonctionnements.
         </p>
-        <h3>LES COOKIES TIERS</h3>
+        <h4>LES COOKIES TIERS</h4>
         <p>
           Lorsque vous accédez à notre site, un ou plusieurs cookies de sociétés
           partenaires (« cookies tiers ») sont susceptibles d’être placés dans
@@ -106,13 +106,13 @@ function Cookies() {
           œuvre des mesures appropriées de sécurisation et de protection de la
           confidentialité des données.
         </p>
-        <h3>COOKIES LIÉS À LA VIDÉO</h3>
+        <h4>COOKIES LIÉS À LA VIDÉO</h4>
         <p>
           Pour le visionnage de vidéos, nous proposons sur ce site un lecteur
           dont l’utilisation entraîne le dépôt de cookies nécessaires à son bon
           fonctionnement.
         </p>
-        <h3>COOKIES SOCIAUX</h3>
+        <h4>COOKIES SOCIAUX</h4>
         <p>
           Nous sommes susceptibles d'inclure une application informatique tierce
           dans certaines des fonctionnalités de notre site, permettant le
@@ -125,7 +125,7 @@ function Cookies() {
           votre compte utilisateur sur votre terminal auprès du réseau social
           concerné.
         </p>
-        <h3>COOKIES PUBLICITAIRES DE SOCIÉTÉS PARTENAIRES</h3>
+        <h4>COOKIES PUBLICITAIRES DE SOCIÉTÉS PARTENAIRES</h4>
         <p>
           Ces cookies tiers ont pour finalité d’identifier vos centres d’intérêt
           au travers des produits consultés sur notre site et de collecter des

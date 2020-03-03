@@ -13,21 +13,29 @@ function Mention() {
       </MetaTags>
       <div className="container">
         <h1>Mentions légales</h1>
-        <p>
-          L'annonceur est l'éditeur de ce site. SoLocal Marketing Services est
-          le prestataire technique. Nom ou Raison sociale : Salon L'Essentiel -
-          Gradignan Adresse : 98 crs Gén de Gaulle - 33170 Gradignan Adresse
-          électronique : salonlessentiel[a]gmail[.]com Téléphone : +33
-          0556894881
-        </p>
-        <p>
-          L'hébergement est assuré par SoLocal Marketing Services Adresse :
-          Citylights - Tours Pont de Sèvres 204 Rond Point de Sèvres 92100
-          Boulogne Billancourt France Capital social : Société anonyme au
-          capital de 7 275 000 euros Mentions RCS : B 422 041 426 RCS Nanterre
-          Numéro TVA Intracommunautaire : FR 714 422 04 1426 Téléphone :
-          33(0)800 000 518 (Service & Appel Gratuit)
-        </p>
+        <div className="mention">
+          <p>
+            L'annonceur est l'éditeur de ce site. SoLocal Marketing Services est
+            le prestataire technique.
+          </p>
+          <p>Nom ou Raison sociale : Salon L'Essentiel - Gradignan</p>
+          <p>Adresse : 98 crs Gén de Gaulle - 33170 Gradignan </p>
+          <p>Adresse électronique : salonlessentiel[a]gmail[.]com </p>
+          <p>Téléphone : +33 0556894881</p>
+        </div>
+        <br></br>
+        <div className="mention">
+          <p>L'hébergement est assuré par SoLocal Marketing Services</p>
+          <p>
+            Adresse : Citylights - Tours Pont de Sèvres 204 Rond Point de Sèvres
+          </p>
+          <p>204 Rond Point de Sèvres</p>
+          <p>92100 Boulogne Billancourt France</p>
+          <p>Capital social : Société anonyme au capital de 7 275 000 euros</p>
+          <p>Mentions RCS : B 422 041 426 RCS Nanterre</p>
+          <p>Numéro TVA Intracommunautaire : FR 714 422 04 1426</p>
+          <p>Téléphone : 33(0)800 000 518 (Service & Appel Gratuit)</p>
+        </div>
       </div>
     </div>
   );
