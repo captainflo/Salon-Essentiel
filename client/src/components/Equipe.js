@@ -23,7 +23,6 @@ class Equipe extends React.Component {
             }
           />
         </MetaTags>
-        <h1 className="hide">Notre équipe</h1>
         <div style={{ height: "auto !important" }}>
           <Slider style={{ height: "auto !important" }}>
             <Slide
@@ -36,7 +35,7 @@ class Equipe extends React.Component {
               }
             >
               <Caption placement="left">
-                <h4>Un salon unique</h4>
+                <h1>Notre équipe</h1>
                 <h5 className="light grey-text text-lighten-3">
                   Précision, qualité et convivialité
                   <br /> sont au rendez-vous
@@ -46,7 +45,7 @@ class Equipe extends React.Component {
           </Slider>
         </div>
         <div className="container">
-          <h3 className="font-title">Notre Team</h3>
+          <h2 className="font-title">Team</h2>
           <div className="row">
             <div className="col m4 s12">
               <div className="card">
@@ -66,7 +65,7 @@ class Equipe extends React.Component {
                   </span>
                   Expérience <i className="fas fa-star" /> : 10 ans.
                   <br />
-                  Spécialisté <i className="fas fa-cut" /> : Coupe, technique.
+                  Spécialiste <i className="fas fa-cut" /> : Coupe, technique.
                   <br />
                 </div>
                 <div className="card-reveal">
@@ -97,7 +96,7 @@ class Equipe extends React.Component {
                   </span>
                   Expérience <i className="fas fa-star" /> : 15 ans.
                   <br />
-                  Spécialisté <i className="fas fa-cut" /> : Coupe.
+                  Spécialiste <i className="fas fa-cut" /> : Coupe.
                   <br />
                 </div>
                 <div className="card-reveal">
@@ -129,7 +128,7 @@ class Equipe extends React.Component {
                   </span>
                   Expérience <i className="fas fa-star" /> : 25 ans.
                   <br />
-                  Spécialisté <i className="fas fa-cut" /> : Coupe, technique.
+                  Spécialiste <i className="fas fa-cut" /> : Coupe, technique.
                   <br />
                 </div>
                 <div className="card-reveal">
@@ -163,7 +162,7 @@ class Equipe extends React.Component {
                   </span>
                   Expérience <i className="fas fa-star" /> : 35 ans.
                   <br />
-                  Spécialisté <i className="fas fa-cut" /> : Technique.
+                  Spécialiste <i className="fas fa-cut" /> : Technique.
                   <br />
                 </div>
                 <div className="card-reveal">
@@ -195,7 +194,7 @@ class Equipe extends React.Component {
                   </span>
                   Expérience <i className="fas fa-star" /> : 30 ans.
                   <br />
-                  Spécialisté <i className="fas fa-cut" /> : Coupe homme
+                  Spécialiste <i className="fas fa-cut" /> : Coupe homme
                   <br />
                 </div>
                 <div className="card-reveal">

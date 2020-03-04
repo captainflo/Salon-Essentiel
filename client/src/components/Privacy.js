@@ -20,16 +20,12 @@ function Privacy() {
         </p>
         <p>Dernière date de Mise à jour : 01/04/2019</p>
 
-        <h2 style={{ fontSize: "40px" }}>
-          1. Identité du responsable du traitement
-        </h2>
+        <h2>1. Identité du responsable du traitement</h2>
         <p>
           Les données personnelles sont collectées par l'Annonceur du site tel
           qu'identifié dans les mentions légales.
         </p>
-        <h2 style={{ fontSize: "40px" }}>
-          2. Les traitements relatifs à vos données personnelles
-        </h2>
+        <h2>2. Les traitements relatifs à vos données personnelles</h2>
         <p>
           Notre site ne demande pas d'enregistrement nominatif à ses visiteurs
           et ne procède à aucun enregistrement nominatif pour la simple
@@ -180,7 +176,7 @@ function Privacy() {
           que pendant la durée nécessaire à des fins probatoire et de gestion
           des contentieux.
         </p>
-        <h2 style={{ fontSize: "40px" }}>3. Vos droits</h2>
+        <h2>3. Vos droits</h2>
         <p>
           Conformément à la loi Informatique et Libertés du 6 janvier 1978
           modifiée, vous disposez de droits d'accès, de rectification,

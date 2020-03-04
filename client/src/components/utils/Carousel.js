@@ -13,9 +13,9 @@ class Carousel extends React.Component {
   render() {
     return (
       <div className="mimi-carousel">
-        <h4 className="center carousel-title font-title">
+        <h2 className="center carousel-title font-title">
           L'essentiel en un clic!
-        </h4>
+        </h2>
         <div className="carousel">
           <Link className="carousel-item center" to="/coiffure">
             <i style={{ fontSize: "50px" }} className="fas fa-home "></i>

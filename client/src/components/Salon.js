@@ -12,7 +12,6 @@ class Salon extends React.Component {
             name="description"
             content="Retrouvez votre salon de coiffure le Salon L'Essentiel, à Gradignan, pour tous types de coiffures : mèches, balayage, coupe hommes, femmes, enfants, brushing, lissage, couleurs, tie and dye, etc."
           />
-          <meta name="keywords" content="l'essentiel gradignan"></meta>
           <meta
             property="og:title"
             content="Salon l'essentiel : Salon de coiffure à Gradignan"
@@ -25,21 +24,6 @@ class Salon extends React.Component {
           />
         </MetaTags>
         <div style={{ height: "auto !important" }}>
-          <div className="hide">
-            <h1>Salon l'essentiel à Gradignan</h1>
-            <h2>Présentation de l'équipe</h2>
-            <h2>Produits pour cheveux à prix coûtant à Gradignan</h2>
-            <p>Le maître mot qui règne dans notre salon, c'est CONVIVIALITÉ.</p>
-            <p>
-              Le Salon L'Essentiel n'est pas un salon de coiffure comme les
-              autres, mais rassurez-vous, vous pourrez tout de même vous y faire
-              faire une coupe ! Mais une fois que vous aurez pousser les portes
-              de ce salon de coiffure, vous y retournerez rien que pour profiter
-              de l'ambiance ! Il faut dire que l'équipe y est pour beaucoup !
-              Chacun a sa personnalité, chacun ses goûts, chacun son style !
-            </p>
-          </div>
-
           <Slider style={{ height: "auto !important" }}>
             <Slide
               image={
@@ -51,7 +35,7 @@ class Salon extends React.Component {
               }
             >
               <Caption placement="left">
-                <h4>Un salon unique</h4>
+                <h1>Salon l'essentiel à Gradignan</h1>
                 <h5 className="light grey-text text-lighten-3">
                   Originalité, qualité et convivialité
                   <br /> sont au rendez-vous
@@ -62,7 +46,7 @@ class Salon extends React.Component {
         </div>
 
         <div className="container">
-          <h3 className="font-title">Presentation</h3>
+          <h2 className="font-title">Presentation</h2>
           <p>
             L'équipe du Salon L'Essentiel à Gradignan, réalise toutes vos envies
             en matières de coiffures ! Vous hésitez pour un changement radical ?
@@ -113,9 +97,9 @@ class Salon extends React.Component {
               />
             </div>
           </div>
-          <h4 className="font-title">
+          <h2 className="font-title">
             Vos produits capillaires à prix coûtant dans votre salon !
-          </h4>
+          </h2>
           <p>
             Comme vous le savez peut-être déjà, vous trouverez dans votre Salon
             L'Essentiel, à Gradignan, tous vos produits pour cheveux, vendus à

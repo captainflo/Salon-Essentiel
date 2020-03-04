@@ -4,6 +4,52 @@
     src: url(../fonts/Justlefthand.ttf)format('truetype');
   }
 
+  h1{
+    font-size: 2.28rem;
+  }
+
+  h2{
+      font-size: 35px;
+  }
+
+  /* Welcome */
+  .collapse{
+    margin-top: 100px;
+  }
+  .collapsible {
+    border-top: none !important; 
+    border-left: none !important; 
+    border-right: none !important; 
+}
+  .collapsible-header {
+    display: flex;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.5;
+    padding: 1rem;
+    background-color: black !important;
+    border: 1px solid #ddd;
+}
+.collapsible-body {
+    border: 1px solid #ddd;
+}
+
+.box-coiffeur{
+    display: inline;
+}
+
+.btn-coiffure{
+     margin: 5px;
+    background-color: #7d684a  
+}
+
+.btn-coiffure:hover{
+   background-color: #7d684a  
+}
+
 /* Link */
 .mimi-carousel a{
     color: #7d684a;
@@ -48,6 +94,7 @@ background: transparent !important;  /* fallback for old browsers */
 .carousel{
     margin-bottom:  -100px !important;
     height: 250px !important;
+    display: inline-table !important;
 }
 .carousel-title{
     color: #fff;
@@ -60,6 +107,7 @@ background: transparent !important;  /* fallback for old browsers */
 /* Equipe */
 .card-content, .card-reveal{
     color: #000000;
+    height: 183px;
 }
 
 /* Tarif */
@@ -109,6 +157,12 @@ td:last-child{
 
 /* Responsive */
 @media only screen and (max-width: 600px) {
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 18px;
+    }
     /* Navbar */
     .brand-logo{
         margin-left: 0px;

@@ -23,7 +23,7 @@ function Cookies() {
       </MetaTags>
       <div className="container">
         <h1>A quoi servent nos cookies ?</h1>
-        <h2 style={{ fontSize: "40px" }}>
+        <h2>
           Cookies strictement nécessaires à l'utilisation du service demandé
         </h2>
         <p>

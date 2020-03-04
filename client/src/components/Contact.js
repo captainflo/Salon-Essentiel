@@ -26,7 +26,6 @@ class Contact extends React.Component {
             }
           />
         </MetaTags>
-        <h1 className="hide">Contact</h1>
         <div style={{ height: "auto !important" }}>
           <Slider style={{ height: "auto !important" }}>
             <Slide
@@ -39,7 +38,7 @@ class Contact extends React.Component {
               }
             >
               <Caption placement="left">
-                <h4>Un salon unique</h4>
+                <h1>Un salon unique</h1>
                 <h5 className="light grey-text text-lighten-3">
                   Originalité, qualité et convivialité
                   <br /> sont au rendez-vous
@@ -50,7 +49,7 @@ class Contact extends React.Component {
         </div>
 
         <div className="container">
-          <h3 className="font-title">Contact</h3>
+          <h2 className="font-title">Contact</h2>
           <div className="row">
             <div className="col m6 s6 center">
               <i className="fas fa-home"></i>

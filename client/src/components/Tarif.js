@@ -11,7 +11,6 @@ function Tarif() {
           name="description"
           content="Retrouvez l'ensemble des prestations et surtout les tarifs pratiqués dans votre salon de coiffure, le Salon l'Essentiel, situé à Gradignan."
         />
-        <meta name="keywords" content="Tarif coiffeur"></meta>
         <meta
           property="og:title"
           content="Tarif coiffeur dans notre salon de coiffeur l'essentiel"
@@ -35,7 +34,7 @@ function Tarif() {
             }
           >
             <Caption placement="right">
-              <h4>Un salon unique</h4>
+              <h1>Tarifs de notre salon de coiffure à Gradignan</h1>
               <h5 className="light grey-text text-lighten-3 back-none">
                 Originalité, qualité et convivialité
                 <br /> sont au rendez-vous
@@ -45,9 +44,7 @@ function Tarif() {
         </Slider>
       </div>
       <div className="container">
-        <h1 className="hide">Tarifs de notre salon de coiffure à Gradignan</h1>
-        <h2 className="hide">Prestations de coiffure à la carte</h2>
-        <h3 className="font-title">Tarif</h3>
+        <h2 className="font-title">Prestations de coiffure à la carte</h2>
         <div className="row">
           <div className="col m12 s12">
             <table>
