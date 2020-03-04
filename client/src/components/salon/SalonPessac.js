@@ -16,6 +16,12 @@ class SalonPessac extends React.Component {
             effectuée par un professionnel
           </title>
           <meta
+            name="description"
+            content="La coupe de cheveux est un élément déterminant,
+            car elle permet de définir votre personnalité. Le salon de coiffure
+            Pessac vous aide à avoir une coiffure qui vous correspond."
+          />
+          <meta
             property="og:image"
             content={
               process.env.PUBLIC_URL + "/images/salon-essentiel--logo-black.png"
@@ -45,10 +51,6 @@ class SalonPessac extends React.Component {
         </div>
 
         <div className="container">
-          <h1 className="font-title">
-            Salon de coiffure proche de Pessac : pour une coupe tendance
-            effectuée par un professionnel
-          </h1>
           <p>
             Vous souhaitez avoir une coupe tendance adaptée à votre
             morphologie ? Le coiffeur Pessac Alouette peut vous offrir une
@@ -111,11 +113,6 @@ class SalonPessac extends React.Component {
               />
             </div>
           </div>
-          <p>
-            Meta description : La coupe de cheveux est un élément déterminant,
-            car elle permet de définir votre personnalité. Le salon de coiffure
-            Pessac vous aide à avoir une coiffure qui vous correspond.
-          </p>
         </div>
       </div>
     );

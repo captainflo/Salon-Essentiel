@@ -16,6 +16,11 @@ class SalonVillenave extends React.Component {
             accueillant au service de votre chevelure
           </title>
           <meta
+            name="description"
+            content="Que vous soyez un homme ou une femme, le coiffeur
+            Villenave-d’Ornon fera de son mieux pour satisfaire vos besoins."
+          />
+          <meta
             property="og:image"
             content={
               process.env.PUBLIC_URL + "/images/salon-essentiel--logo-black.png"
@@ -45,10 +50,6 @@ class SalonVillenave extends React.Component {
         </div>
 
         <div className="container">
-          <h1 className="font-title">
-            Coiffeur proche de Villenave-d’Ornon : un professionnel dynamique et
-            accueillant au service de votre chevelure
-          </h1>
           <p>
             Le Coiffeur Villenave-d’Ornon est un professionnel qui se charge du
             bien-être de votre chevelure. Chaque moment que vous passez chez ce

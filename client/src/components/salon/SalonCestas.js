@@ -16,6 +16,12 @@ class SalonCestas extends React.Component {
             soin de votre chevelure
           </title>
           <meta
+            name="description"
+            content="Même si vous ne ressentez pas souvent le besoin
+            de recourir à un coiffeur, consulter ce professionnel de temps en
+            temps peut être vraiment bénéfique pour votre chevelure."
+          />
+          <meta
             property="og:image"
             content={
               process.env.PUBLIC_URL + "/images/salon-essentiel--logo-black.png"
@@ -45,10 +51,6 @@ class SalonCestas extends React.Component {
         </div>
 
         <div className="container">
-          <h2 className="font-title">
-            Salon de coiffure proche de Cestas : un professionnel pour prendre
-            soin de votre chevelure
-          </h2>
           <p>
             Vous souvenez vous de la dernière fois où vous êtes allé chez le
             coiffeur ? C'est peut-être le moment idéal pour faire un saut auprès
@@ -108,11 +110,6 @@ class SalonCestas extends React.Component {
               />
             </div>
           </div>
-          <p>
-            Meta description : Même si vous ne ressentez pas souvent le besoin
-            de recourir à un coiffeur, consulter ce professionnel de temps en
-            temps peut être vraiment bénéfique pour votre chevelure.
-          </p>
         </div>
       </div>
     );

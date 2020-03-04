@@ -16,6 +16,12 @@ class SalonBegles extends React.Component {
             chevelure
           </title>
           <meta
+            name="description"
+            content="Que vous souhaitiez raviver la couleur de vos
+            cheveux ou adopter un nouveau look, le salon de coiffure Begles vous
+            aide à atteindre vos objectifs."
+          />
+          <meta
             property="og:image"
             content={
               process.env.PUBLIC_URL + "/images/salon-essentiel--logo-black.png"
@@ -45,10 +51,6 @@ class SalonBegles extends React.Component {
         </div>
 
         <div className="container">
-          <h1 className="font-title">
-            Salon de coiffure proche Begles : pour veiller au bien-être de votre
-            chevelure
-          </h1>
           <p>
             Les cheveux sont en permanence agressés. Ils deviennent de plus en
             plus secs et sont facilement vulnérables. À cause de ces facteurs,
@@ -110,11 +112,6 @@ class SalonBegles extends React.Component {
               />
             </div>
           </div>
-          <p>
-            Meta description : Que vous souhaitiez raviver la couleur de vos
-            cheveux ou adopter un nouveau look, le salon de coiffure Begles vous
-            aide à atteindre vos objectifs.
-          </p>
         </div>
       </div>
     );

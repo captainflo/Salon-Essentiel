@@ -16,6 +16,11 @@ class SalonTalence extends React.Component {
             professionnel
           </title>
           <meta
+            name="description"
+            content="Que ce soit pour aller au travail ou pour une
+            sortie entre amies, offrez-vous toujours une coiffure impeccable."
+          />
+          <meta
             property="og:image"
             content={
               process.env.PUBLIC_URL + "/images/salon-essentiel--logo-black.png"
@@ -45,10 +50,6 @@ class SalonTalence extends React.Component {
         </div>
 
         <div className="container">
-          <h1 className="font-title">
-            Salon de coiffure proche de Talence : confiez votre beauté à un
-            professionnel
-          </h1>
           <p>
             La chevelure est un élément déterminant pour la beauté d’une
             personne. Plus elle est réussie, plus son propriétaire paraît sur
@@ -113,10 +114,6 @@ class SalonTalence extends React.Component {
               />
             </div>
           </div>
-          <p>
-            Meta description : Que ce soit pour aller au travail ou pour une
-            sortie entre amies, offrez-vous toujours une coiffure impeccable.
-          </p>
         </div>
       </div>
     );

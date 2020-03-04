@@ -16,6 +16,13 @@ class SalonCanejan extends React.Component {
             s’assure du bien-être de votre chevelure
           </title>
           <meta
+            name="description"
+            content="Le Coiffeur Canejan est un professionnel qui
+            offre des services sur mesure. Au-delà des services qu’il vous
+            propose, il peut également vous conseiller sur les styles de
+            coiffures adaptés à votre morphologie."
+          />
+          <meta
             property="og:image"
             content={
               process.env.PUBLIC_URL + "/images/salon-essentiel--logo-black.png"
@@ -45,10 +52,6 @@ class SalonCanejan extends React.Component {
         </div>
 
         <div className="container">
-          <h1 className="font-title">
-            Coiffeur proche de canejan : un professionnel expérimenté qui
-            s’assure du bien-être de votre chevelure
-          </h1>
           <p>
             Certaines personnes vont chez le coiffeur pour seulement effectuer
             leur traditionnelle coupe saisonnière. Vous voulez changer de
@@ -112,12 +115,6 @@ class SalonCanejan extends React.Component {
               />
             </div>
           </div>
-          <p>
-            Meta description : Le Coiffeur Canejan est un professionnel qui
-            offre des services sur mesure. Au-delà des services qu’il vous
-            propose, il peut également vous conseiller sur les styles de
-            coiffures adaptés à votre morphologie.
-          </p>
         </div>
       </div>
     );

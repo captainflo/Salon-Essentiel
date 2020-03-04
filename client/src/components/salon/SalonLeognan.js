@@ -16,6 +16,12 @@ class SalonLeognan extends React.Component {
             Leognan
           </title>
           <meta
+            name="description"
+            content="Quel que soit le style de coiffure que vous
+            souhaitiez avoir, le salon de coiffure Leognan fera son maximum pour
+            satisfaire vos besoins."
+          />
+          <meta
             property="og:image"
             content={
               process.env.PUBLIC_URL + "/images/salon-essentiel--logo-black.png"
@@ -45,10 +51,6 @@ class SalonLeognan extends React.Component {
         </div>
 
         <div className="container">
-          <h1 className="font-title">
-            Profitez des différentes prestations du salon de coiffure proche de
-            Leognan
-          </h1>
           <p>
             Vous êtes à la recherche d’un coiffeur qui peut exécuter des
             coiffures tendances ? Le salon de coiffure Leognan se donnera au
@@ -113,11 +115,6 @@ class SalonLeognan extends React.Component {
               />
             </div>
           </div>
-          <p>
-            Meta description : Quel que soit le style de coiffure que vous
-            souhaitiez avoir, le salon de coiffure Leognan fera son maximum pour
-            satisfaire vos besoins.
-          </p>
         </div>
       </div>
     );
