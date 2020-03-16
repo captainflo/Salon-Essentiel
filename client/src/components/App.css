@@ -1,199 +1,179 @@
 /* Font */
 @font-face {
-    font-family: myFirstFont;
-    src: url(../fonts/Justlefthand.ttf)format('truetype');
-  }
-
-  h1{
-    font-size: 2.28rem;
-  }
-
-  h2{
-      font-size: 35px;
-  }
-
-  /* Welcome */
-  .collapse{
-    margin-top: 100px;
-  }
-  .collapsible {
-    border-top: none !important; 
-    border-left: none !important; 
-    border-right: none !important; 
+  font-family: myFirstFont;
+  src: url(../fonts/Justlefthand.ttf) format('truetype');
 }
-  .collapsible-header {
-    display: flex;
-    width: 160px;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
-    line-height: 1.5;
-    padding: 1rem;
-    background-color: black !important;
-    border: 1px solid #ddd;
+
+h1 {
+  font-size: 2.28rem;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+/* Welcome */
+.collapse {
+  margin-top: 100px;
+}
+.collapsible {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+.collapsible-header {
+  display: flex;
+  width: 150px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  line-height: 1.5;
+  padding: 10px;
+  background-color: black !important;
+  border: 1px solid #ddd;
 }
 .collapsible-body {
-    border: 1px solid #ddd;
+  border: 1px solid #ddd;
 }
 
-.box-coiffeur{
-    display: inline;
+.box-coiffeur {
+  display: inline;
 }
 
-.btn-coiffure{
-     margin: 5px;
-    background-color: #7d684a  
+.btn-coiffure {
+  margin: 5px;
+  background-color: #7d684a;
 }
 
-.btn-coiffure:hover{
-   background-color: #7d684a  
+.btn-coiffure:hover {
+  background-color: #7d684a;
 }
 
 /* Link */
-.mimi-carousel a{
-    color: #7d684a;
+.mimi-carousel a {
+  color: #7d684a;
 }
 /* Body */
-body{
-    font-family: 'Montserrat', sans-serif;
-    background-color: #000000;
-    color: #fff;
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000000;
+  color: #fff;
 }
 /* Sidebar */
-.title-Sidebar{
-    font-size: 30px !important;
+.title-Sidebar {
+  font-size: 30px !important;
 }
 /* Navbar */
-nav, footer{
-background: transparent !important;  /* fallback for old browsers */
-
+nav,
+footer {
+  background: transparent !important; /* fallback for old browsers */
 }
-.logo-brand{
-    width: 200px;
-    margin-left: 20px;
+.logo-brand {
+  width: 200px;
+  margin-left: 20px;
 }
 
 /* Banner */
 .slider {
-    height: auto !important;
+  height: auto !important;
 }
-/* .indicators{
-    display: none;
-} */
 
 /* Carousel */
-.mimi-carousel{
-    height: 200px !important;
+.mimi-carousel hr {
+  background-color: #fff;
 }
 
-.mimi-carousel hr{
-    background-color: #fff;
+.carousel {
+  margin-bottom: -30px !important;
+  height: 250px !important;
+  display: inline-table !important;
+}
+.carousel-title {
+  color: #fff;
+  margin-bottom: 30px;
 }
 
-.carousel{
-    margin-bottom:  -100px !important;
-    height: 250px !important;
-    display: inline-table !important;
-}
-.carousel-title{
-    color: #fff;
-}
-
-.carousel-img{
-    border-radius: 8px;
+.carousel-img {
+  border-radius: 8px;
 }
 
 /* Equipe */
-.card-content, .card-reveal{
-    color: #000000;
-    height: 183px;
+.card-content,
+.card-reveal {
+  color: #000000;
+  height: 183px;
 }
 
 /* Tarif */
-.collection{
-    color: #000000;
-    border: 6px solid #e0e0e0 !important;
+.collection {
+  color: #000000;
+  border: 6px solid #e0e0e0 !important;
 }
 
 th {
-    color: #7d684a !important;
-    font-size: 20px;
+  color: #7d684a !important;
+  font-size: 20px;
 }
 
-td:last-child{
-    text-align: right;
-    padding-right: 0;
+td:last-child {
+  text-align: right;
+  padding-right: 0;
 }
 
-.long-td{
-    min-width: 125px;
+.long-td {
+  min-width: 125px;
 }
 
 /* Salon */
-.style-img{
-    border-radius: 5px !important;
+.style-img {
+  border-radius: 5px !important;
 }
-
 
 /* Footer */
-.contact{
-    margin-left: 10px;
+.contact {
+  margin-left: 10px;
 }
 
-.fa-facebook-square{
-    font-size: 30px;
-    color: #3b5998;
-}
-
-
-.fa-instagram{
-    font-size: 30px;
-}
-
-.mention{
-    line-height: 0.8;
+.mention {
+  line-height: 0.8;
 }
 
 /* Responsive */
 @media only screen and (max-width: 600px) {
-    h1{
-        font-size: 20px;
-    }
-    h2{
-        font-size: 18px;
-    }
-    /* Navbar */
-    .brand-logo{
-        margin-left: 0px;
-    }
-    .logo-brand{
-        width: 150px;  
-    }
-    /* Banner */
-    .caption h4{
-        font-size: 20px;
-    }
-
-    .caption h5{
-        font-size: 18px;
-        background-color: rgba(0, 0, 0, 0.3)
-    }
-    /* Salon */
-    .flex-s {
-        display: flex;
-        flex-direction: column;
-      }
-      .box-a {
-        order: 2;
-      }
-     .back-none{
-        background-color: rgba(0, 0, 0, 0)!important;
-    }
-    /* Footer */
-    .contact{
-        font-size: 11px;
-    }
-    
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  /* Navbar */
+  .brand-logo {
+    margin-left: 0px;
+  }
+  .logo-brand {
+    width: 150px;
+  }
+  /* Banner */
+  .caption h4 {
+    font-size: 20px;
   }
 
+  .caption h5 {
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  /* Salon */
+  .flex-s {
+    display: flex;
+    flex-direction: column;
+  }
+  .box-a {
+    order: 2;
+  }
+  .back-none {
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+  /* Footer */
+  .contact {
+    font-size: 11px;
+  }
+}

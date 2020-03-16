@@ -1,11 +1,11 @@
-import React from "react";
-import M from "materialize-css/dist/js/materialize.min.js";
-import { Link } from "react-router-dom";
+import React from 'react';
+import M from 'materialize-css/dist/js/materialize.min.js';
+import { Link } from 'react-router-dom';
 
 class Carousel extends React.Component {
   componentDidMount() {
     // Carousel
-    var elemCarou = document.querySelectorAll(".carousel");
+    var elemCarou = document.querySelectorAll('.carousel');
     M.Carousel.init(elemCarou, {
       padding: 100
     });
@@ -18,24 +18,44 @@ class Carousel extends React.Component {
         </h2>
         <div className="carousel">
           <Link className="carousel-item center" to="/coiffure">
-            <i style={{ fontSize: "50px" }} className="fas fa-home "></i>
+            <i style={{ fontSize: '50px' }} className="fas fa-home "></i>
             <p>Notre Salon</p>
           </Link>
           <Link className="carousel-item center" to="/equipe">
-            <i style={{ fontSize: "50px" }} className="fas fa-users"></i>
+            <i style={{ fontSize: '50px' }} className="fas fa-users"></i>
             <p>Notre Equipe</p>
           </Link>
           <Link className="carousel-item center" to="/tarifs">
             <i
-              style={{ fontSize: "50px" }}
+              style={{ fontSize: '50px' }}
               className="fas fa-comment-dollar"
             ></i>
             <p>Nos Tarifs</p>
           </Link>
           <Link className="carousel-item center" to="/contact">
-            <i style={{ fontSize: "50px" }} className="fas fa-comment-dots"></i>
+            <i style={{ fontSize: '50px' }} className="fas fa-comment-dots"></i>
             <p>Contact</p>
           </Link>
+          <a
+            className="carousel-item center"
+            href="https://www.facebook.com/pageSalonLEssentiel/?fref=ts"
+            target="blank"
+          >
+            <i
+              style={{ fontSize: '50px' }}
+              className="fab fa-facebook-square"
+            ></i>
+            <p>Facebook</p>
+          </a>
+
+          <a
+            className="carousel-item center"
+            href="https://www.instagram.com/salon_lessentiel/"
+            target="blank"
+          >
+            <i style={{ fontSize: '50px' }} className="fab fa-instagram"></i>
+            <p>Instagram</p>
+          </a>
         </div>
         <hr></hr>
       </div>
