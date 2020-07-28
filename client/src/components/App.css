@@ -137,6 +137,33 @@ td:last-child {
   line-height: 0.8;
 }
 
+/* heartBeat */
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.75);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.75);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
+
+.heartBeat {
+  text-align: center;
+  animation: heartbeat 1s infinite;
+}
+
 /* Responsive */
 @media only screen and (max-width: 600px) {
   h1 {

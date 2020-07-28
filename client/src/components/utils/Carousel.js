@@ -7,7 +7,7 @@ class Carousel extends React.Component {
     // Carousel
     var elemCarou = document.querySelectorAll('.carousel');
     M.Carousel.init(elemCarou, {
-      padding: 100
+      padding: 100,
     });
   }
   render() {
@@ -17,6 +17,16 @@ class Carousel extends React.Component {
           L'essentiel en un clic!
         </h2>
         <div className="carousel">
+          <a
+            className="carousel-item center"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://rendezvous.hairnet.fr/?token=9aedc40c534d3854784c85e6f6d16d92&iframe=1"
+          >
+            <i style={{ fontSize: '50px' }} className="fas fa-book"></i>
+            <p>Reservation</p>
+          </a>
+
           <Link className="carousel-item center" to="/coiffure">
             <i style={{ fontSize: '50px' }} className="fas fa-home "></i>
             <p>Notre Salon</p>
