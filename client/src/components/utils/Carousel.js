@@ -17,7 +17,7 @@ class Carousel extends React.Component {
           L'essentiel en un clic!
         </h2>
         <div className="carousel">
-          <a
+          {/* <a
             className="carousel-item center"
             target="_blank"
             rel="noopener noreferrer"
@@ -25,7 +25,7 @@ class Carousel extends React.Component {
           >
             <i style={{ fontSize: '50px' }} className="fas fa-book"></i>
             <p>Reservation</p>
-          </a>
+          </a> */}
 
           <Link className="carousel-item center" to="/coiffure">
             <i style={{ fontSize: '50px' }} className="fas fa-home "></i>
