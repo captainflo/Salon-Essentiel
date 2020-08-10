@@ -20,7 +20,7 @@ class Navabar extends React.Component {
             <i className="material-icons">menu</i>
           </a>
           <ul className="right hide-on-med-and-down">
-            {/* <li className="tab heartBeat">
+            <li className="tab heartBeat">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -28,7 +28,7 @@ class Navabar extends React.Component {
               >
                 Reservation
               </a>
-            </li> */}
+            </li>
             <li className="tab">
               <Link to="/coiffure">Notre Salon</Link>
             </li>
@@ -58,7 +58,7 @@ class Navabar extends React.Component {
             </Link>
           </li>
           <hr></hr>
-          {/* <li>
+          <li>
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -67,7 +67,7 @@ class Navabar extends React.Component {
               <i className="fas fa-book heartBeat"></i>
               Reservation
             </a>
-          </li> */}
+          </li>
           <li>
             <Link className="sidenav-close" to="/coiffure">
               <i className="fas fa-home "></i> Notre Salon
