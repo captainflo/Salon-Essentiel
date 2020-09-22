@@ -10,8 +10,6 @@ const AnyReactComponent = ({ text }) => (
   </div>
 );
 
-console.log(process.env.REACT_APP_GOOGLE_MAP);
-
 class SimpleMap extends Component {
   static defaultProps = {
     center: {
