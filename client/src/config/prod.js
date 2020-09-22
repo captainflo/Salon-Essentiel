@@ -1,4 +1,4 @@
 // prod.js - production keys here!!!
 module.exports = {
-  mongoURI: process.env.MONGO_URI,
+  googleMap: process.env.GOOGLE_MAP_API,
 };
