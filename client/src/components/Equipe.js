@@ -53,7 +53,7 @@ class Equipe extends React.Component {
                   <img
                     src={
                       process.env.PUBLIC_URL +
-                      '/images/salon-essentiel-alicia.png'
+                      '/images/salon-essentiel-alicia.jpg'
                     }
                     alt="background"
                     className="activator responsive-img"
@@ -225,7 +225,7 @@ class Equipe extends React.Component {
                   </span>
                   Expérience <i className="fas fa-star" /> : 10 ans.
                   <br />
-                  Spécialiste <i className="fas fa-cut" /> : Coupe et Technique.
+                  Spécialiste <i className="fas fa-cut" /> : Coupe, Technique.
                   <br />
                 </div>
                 <div className="card-reveal">
@@ -233,7 +233,7 @@ class Equipe extends React.Component {
                     Histoire<i className="material-icons right">close</i>
                   </span>
                   Discrète et efficace, Audrey saura entendre et réaliser toutes
-                  vos envies.
+                  vos envies. "La force tranquille".
                 </div>
               </div>
             </div>
