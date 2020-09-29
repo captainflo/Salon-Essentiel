@@ -1,6 +1,6 @@
-import React from "react";
-import { Slider, Caption, Slide } from "react-materialize";
-import MetaTags from "react-meta-tags";
+import React from 'react';
+import { Slider, Caption, Slide } from 'react-materialize';
+import MetaTags from 'react-meta-tags';
 
 class Equipe extends React.Component {
   render() {
@@ -19,16 +19,16 @@ class Equipe extends React.Component {
           <meta
             property="og:image"
             content={
-              process.env.PUBLIC_URL + "/images/salon-essentiel--logo-black.png"
+              process.env.PUBLIC_URL + '/images/salon-essentiel--logo-black.png'
             }
           />
         </MetaTags>
-        <div style={{ height: "auto !important" }}>
-          <Slider style={{ height: "auto !important" }}>
+        <div style={{ height: 'auto !important' }}>
+          <Slider style={{ height: 'auto !important' }}>
             <Slide
               image={
                 <img
-                  src={process.env.PUBLIC_URL + "/images/salon-essentiel2.jpg"}
+                  src={process.env.PUBLIC_URL + '/images/salon-essentiel2.jpg'}
                   alt="background"
                   className="responsive-img"
                 />
@@ -53,7 +53,7 @@ class Equipe extends React.Component {
                   <img
                     src={
                       process.env.PUBLIC_URL +
-                      "/images/salon-essentiel-alicia.png"
+                      '/images/salon-essentiel-alicia.png'
                     }
                     alt="background"
                     className="activator responsive-img"
@@ -72,9 +72,8 @@ class Equipe extends React.Component {
                   <span className="card-title grey-text text-darken-4">
                     Histoire<i className="material-icons right">close</i>
                   </span>
-                  On commence par notre petite dernière ! Arrivée en 2011,
-                  Alicia est une artiste dans l'âme et saura vous faire
-                  découvrir ses créations en coiffures.
+                  Arrivée en 2011, Alicia est une artiste dans l'âme et saura
+                  vous faire découvrir ses créations en coiffures.
                 </div>
               </div>
             </div>
@@ -84,7 +83,7 @@ class Equipe extends React.Component {
                   <img
                     src={
                       process.env.PUBLIC_URL +
-                      "/images/salon-essentiel-camille.png"
+                      '/images/salon-essentiel-camille.png'
                     }
                     alt="background"
                     className="activator responsive-img"
@@ -115,7 +114,7 @@ class Equipe extends React.Component {
                   <img
                     src={
                       process.env.PUBLIC_URL +
-                      "/images/salon-essentiel-delphine.png"
+                      '/images/salon-essentiel-delphine.png'
                     }
                     alt="background"
                     className="activator responsive-img"
@@ -149,7 +148,7 @@ class Equipe extends React.Component {
                   <img
                     src={
                       process.env.PUBLIC_URL +
-                      "/images/salon-essentiel-nathalie.png"
+                      '/images/salon-essentiel-nathalie.png'
                     }
                     alt="background"
                     className="activator responsive-img"
@@ -181,7 +180,7 @@ class Equipe extends React.Component {
                   <img
                     src={
                       process.env.PUBLIC_URL +
-                      "/images/salon-essentiel-jean-christophe.jpg"
+                      '/images/salon-essentiel-jean-christophe.jpg'
                     }
                     alt="background"
                     className="activator responsive-img"
@@ -204,6 +203,102 @@ class Equipe extends React.Component {
                   Catalyseur d'énergies, Jean-Christophe est spécialisé dans la
                   coiffure masculine, il apporte chaque jour sa bonne humeur et
                   vous la fera partager !
+                </div>
+              </div>
+            </div>
+            <div className="col m4 s12">
+              <div className="card">
+                <div className="card-image waves-effect waves-block waves-light">
+                  <img
+                    src={
+                      process.env.PUBLIC_URL +
+                      '/images/salon-essentiel-audrey.png'
+                    }
+                    alt="background"
+                    className="activator responsive-img"
+                  />
+                </div>
+                <div className="card-content">
+                  <span className="card-title activator grey-text text-darken-4">
+                    Audrey
+                    <i className="material-icons right">arrow_forward</i>
+                  </span>
+                  Expérience <i className="fas fa-star" /> : 10 ans.
+                  <br />
+                  Spécialiste <i className="fas fa-cut" /> : Coupe et Technique.
+                  <br />
+                </div>
+                <div className="card-reveal">
+                  <span className="card-title grey-text text-darken-4">
+                    Histoire<i className="material-icons right">close</i>
+                  </span>
+                  Discrète et efficace, Audrey saura entendre et réaliser toutes
+                  vos envies.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col m4 s12">
+              <div className="card">
+                <div className="card-image waves-effect waves-block waves-light">
+                  <img
+                    src={
+                      process.env.PUBLIC_URL +
+                      '/images/salon-essentiel-melisssa.png'
+                    }
+                    alt="background"
+                    className="activator responsive-img"
+                  />
+                </div>
+                <div className="card-content">
+                  <span className="card-title activator grey-text text-darken-4">
+                    Mélissa
+                    <i className="material-icons right">arrow_forward</i>
+                  </span>
+                  Expérience <i className="fas fa-star" /> : Junior.
+                  <br />
+                  Spécialiste <i className="fas fa-cut" /> : Technique.
+                  <br />
+                </div>
+                <div className="card-reveal">
+                  <span className="card-title grey-text text-darken-4">
+                    Histoire<i className="material-icons right">close</i>
+                  </span>
+                  Déja titulaire de son CAP, Mélissa débordante d’énergie, Est
+                  avec nous pour préparer son Brevet professionnel et nous
+                  apporter son dynamisme
+                </div>
+              </div>
+            </div>
+            <div className="col m4 s12">
+              <div className="card">
+                <div className="card-image waves-effect waves-block waves-light">
+                  <img
+                    src={
+                      process.env.PUBLIC_URL +
+                      '/images/salon-essentiel-antonio.png'
+                    }
+                    alt="background"
+                    className="activator responsive-img"
+                  />
+                </div>
+                <div className="card-content">
+                  <span className="card-title activator grey-text text-darken-4">
+                    Antonio
+                    <i className="material-icons right">arrow_forward</i>
+                  </span>
+                  Expérience <i className="fas fa-star" /> : Junior.
+                  <br />
+                  Spécialiste <i className="fas fa-cut" /> : Technique
+                  <br />
+                </div>
+                <div className="card-reveal">
+                  <span className="card-title grey-text text-darken-4">
+                    Histoire<i className="material-icons right">close</i>
+                  </span>
+                  Notre junior CAP, Préssé d’apprendre et d’évoluer, Antonio
+                  vous enchantera par son sourire et sa bonne humeur latine.
                 </div>
               </div>
             </div>

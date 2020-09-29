@@ -88,49 +88,6 @@ class Navabar extends React.Component {
                     </li>
                   </ul>
                 </li>
-                <li>
-                  <ul className="collapsible">
-                    <li>
-                      <div className="collapsible-header">
-                        <i className="material-icons">filter_drama</i>En savoir
-                        +
-                      </div>
-                      <div className="collapsible-body">
-                        <h1 style={{ fontSize: '21px' }}>
-                          Salon de coiffure à Gradignan
-                        </h1>
-                        <h2 style={{ fontSize: '20px' }}>
-                          Coiffeur à Gradignan
-                        </h2>
-                        <h2 style={{ fontSize: '20px' }}>Présentation</h2>
-                        <p>
-                          L'équipe du Salon L'Essentiel à Gradignan, réalise
-                          toutes vos envies en matières de coiffures ! Vous
-                          hésitez pour un changement radical ? Nous prenons le
-                          temps d'échanger sur vos goûts et vous conseillons par
-                          rapport à la forme de votre visage. Vous souhaitez
-                          rafraichir votre coupe ou votre couleur tout en
-                          passant un moment agréable ? C'est toujours avec bonne
-                          humeur que nous vous accueillons !
-                        </p>
-                        <h2 style={{ fontSize: '20px' }}>Prestations tarifs</h2>
-                        <p>
-                          Notre salon de coiffure, le Salon L 'Essentiel , vous
-                          invite à découvrir nos différentes prestations, pour
-                          hommes , femmes et enfants . Venez vous faire
-                          chouchouter et oubliez vos tracas quotidiens le temps
-                          d'une pause dans un salon de coiffure à l'ambiance
-                          chaleureuse et conviviale. Profitez-en pour découvrir
-                          d'autres genres musicaux et les artistes qui viennent
-                          exposer, de temps à autres, dans votre salon de
-                          coiffure de proximité ! Vous ne viendrez plus
-                          seulement pour une coupe de cheveux , vous viendrez
-                          pour profiter du moment présent !
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-                </li>
               </ul>
             </div>
           </div>

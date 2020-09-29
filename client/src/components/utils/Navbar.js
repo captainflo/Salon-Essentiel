@@ -48,7 +48,7 @@ class Navabar extends React.Component {
           <li className="font-title">
             <Link className="title-Sidebar" to="/">
               <img
-                className="logo-brand"
+                className="logo-brand-sidebar"
                 src={
                   process.env.PUBLIC_URL +
                   '/images/salon-essentiel--logo-black.png'

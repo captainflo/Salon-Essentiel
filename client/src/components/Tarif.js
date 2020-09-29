@@ -1,6 +1,6 @@
-import React from "react";
-import { Slider, Caption, Slide } from "react-materialize";
-import MetaTags from "react-meta-tags";
+import React from 'react';
+import { Slider, Caption, Slide } from 'react-materialize';
+import MetaTags from 'react-meta-tags';
 
 function Tarif() {
   return (
@@ -18,16 +18,16 @@ function Tarif() {
         <meta
           property="og:image"
           content={
-            process.env.PUBLIC_URL + "/images/salon-essentiel--logo-black.png"
+            process.env.PUBLIC_URL + '/images/salon-essentiel--logo-black.png'
           }
         />
       </MetaTags>
-      <div style={{ height: "auto !important" }}>
-        <Slider style={{ height: "auto !important" }}>
+      <div style={{ height: 'auto !important' }}>
+        <Slider style={{ height: 'auto !important' }}>
           <Slide
             image={
               <img
-                src={process.env.PUBLIC_URL + "/images/salon-essentiel4.jpg"}
+                src={process.env.PUBLIC_URL + '/images/salon-essentiel4.jpg'}
                 alt="background"
                 className="responsive-img"
               />
@@ -60,22 +60,22 @@ function Tarif() {
                 <tr>
                   <td>Shampoing / Coupe / Brushing / Mise en plis</td>
                   <td />
-                  <td className="right">36 €</td>
+                  <td className="right">37 €</td>
                 </tr>
                 <tr>
                   <td>Shampoing / Coiffage (cheveux courts)</td>
                   <td />
-                  <td className="right">19.50 €</td>
+                  <td className="right">20 €</td>
                 </tr>
                 <tr>
                   <td>Shampoing / Coupe / Coiffage (cheveux longs)</td>
                   <td />
-                  <td className="right">40 €</td>
+                  <td className="right">41 €</td>
                 </tr>
                 <tr>
                   <td>Shampoing / Coiffage (cheveux longs)</td>
                   <td />
-                  <td className="right">25 €</td>
+                  <td className="right">26 €</td>
                 </tr>
                 <tr>
                   <td>Chicas (selon âge)</td>
@@ -107,7 +107,7 @@ function Tarif() {
                 <tr>
                   <td>Soins profonds</td>
                   <td />
-                  <td className="right">15 €</td>
+                  <td className="right">20 €</td>
                 </tr>
               </tbody>
             </table>
@@ -129,7 +129,7 @@ function Tarif() {
                 <tr>
                   <td>Vernis : effet gloss, apport brillance</td>
                   <td />
-                  <td className="right">26 €</td>
+                  <td className="right">22 €</td>
                 </tr>
                 <tr>
                   <td>Couleurs</td>
@@ -161,22 +161,27 @@ function Tarif() {
                 <tr>
                   <td>Flash</td>
                   <td />
-                  <td className="right">27 €</td>
+                  <td className="right">29 €</td>
                 </tr>
                 <tr>
                   <td>Demi-tête</td>
                   <td />
-                  <td className="right">32 €</td>
+                  <td className="right">36 €</td>
                 </tr>
                 <tr>
                   <td>Tête entière</td>
                   <td />
-                  <td className="right">42 €</td>
+                  <td className="right">48 €</td>
                 </tr>
                 <tr>
                   <td>Cheveux longs</td>
                   <td />
-                  <td className="right">58 €</td>
+                  <td className="right">60 €</td>
+                </tr>
+                <tr>
+                  <td>Ombré hair, tie and dye, travaux spécifiques</td>
+                  <td />
+                  <td className="right">sur devis</td>
                 </tr>
               </tbody>
             </table>
@@ -200,7 +205,7 @@ function Tarif() {
                     Permanente, ondulation, mini-vague, décollement de racine
                   </td>
                   <td />
-                  <td className="right">24 à 55 €</td>
+                  <td className="right">33 à 60 €</td>
                 </tr>
                 <tr>
                   <td>
@@ -233,9 +238,9 @@ function Tarif() {
                   <td className="right">120 €</td>
                 </tr>
                 <tr>
-                  <td>Coiffure / Ongles / Maquillage</td>
+                  <td>Chignon ou attache</td>
                   <td />
-                  <td className="right">199 €</td>
+                  <td className="right">35€ à 49€</td>
                 </tr>
               </tbody>
             </table>
@@ -257,7 +262,7 @@ function Tarif() {
                 <tr>
                   <td>Shampoing / Coupe / Coiffage</td>
                   <td />
-                  <td className="right">22 €</td>
+                  <td className="right">23 €</td>
                 </tr>
                 <tr>
                   <td>Chicos (selon âge)</td>
@@ -265,22 +270,29 @@ function Tarif() {
                   <td className="right long-td">10 / 14 / 16 €</td>
                 </tr>
                 <tr>
-                  <td>Barbe</td>
-                  <td />
-                  <td className="right">5 €</td>
-                </tr>
-                <tr>
                   <td>COVER 5 : 5 minutes...5 ans de moins</td>
                   <td />
                   <td className="right">12 €</td>
                 </tr>
-                <tr>
-                  <td>Coupe tondeuse</td>
-                  <td />
-                  <td className="right">15 €</td>
-                </tr>
               </tbody>
             </table>
+          </div>
+        </div>
+        <h1 className="title-avantage">Vos Avantages</h1>
+        <div className="row center">
+          <div className="col m3 s6">
+            <div className="circle-avantage">Carte de Fidélité Familiale</div>
+          </div>
+          <div className="col m3 s6">
+            <div className="circle-avantage">-15% pour les Etidiants</div>{' '}
+          </div>
+          <div className="col m3 s6">
+            <div className="circle-avantage">
+              -20% Le Mardi sur les Services Technique
+            </div>
+          </div>
+          <div className="col m3 s6">
+            <div className="circle-avantage">Vos produits à prix coûtant</div>
           </div>
         </div>
       </div>
