@@ -47,13 +47,13 @@ class Equipe extends React.Component {
         <div className="container">
           <h2 className="font-title">Team</h2>
           <div className="row">
-            <div className="col m4 s12">
+          <div className="col m4 s12">
               <div className="card">
                 <div className="card-image waves-effect waves-block waves-light">
                   <img
                     src={
                       process.env.PUBLIC_URL +
-                      '/images/salon-essentiel-alicia.jpg'
+                      '/images/salon-essentiel-Soukaïna.png'
                     }
                     alt="background"
                     className="activator responsive-img"
@@ -61,19 +61,20 @@ class Equipe extends React.Component {
                 </div>
                 <div className="card-content">
                   <span className="card-title activator grey-text text-darken-4">
-                    Alicia<i className="material-icons right">arrow_forward</i>
+                  Soukaïna 
+                    <i className="material-icons right">arrow_forward</i>
                   </span>
-                  Expérience <i className="fas fa-star" /> : 10 ans.
+                  Expérience <i className="fas fa-star" /> : 10 ans 
                   <br />
-                  Spécialiste <i className="fas fa-cut" /> : Coupe, technique.
+                  spécialité <i className="fas fa-cut" /> : coupe et technique 
                   <br />
                 </div>
                 <div className="card-reveal">
                   <span className="card-title grey-text text-darken-4">
                     Histoire<i className="material-icons right">close</i>
                   </span>
-                  Arrivée en 2011, Alicia est une artiste dans l'âme et saura
-                  vous faire découvrir ses créations en coiffures.
+                  Dernière arrivée dans l’équipe 
+Artiste dans l’âme elle saura vous proposer la coupe et la couleur qui vous conviendra.
                 </div>
               </div>
             </div>
@@ -95,7 +96,7 @@ class Equipe extends React.Component {
                   </span>
                   Expérience <i className="fas fa-star" /> : 15 ans.
                   <br />
-                  Spécialiste <i className="fas fa-cut" /> : Coupe.
+                  spécialité <i className="fas fa-cut" /> : Coupe.
                   <br />
                 </div>
                 <div className="card-reveal">
@@ -127,7 +128,7 @@ class Equipe extends React.Component {
                   </span>
                   Expérience <i className="fas fa-star" /> : 25 ans.
                   <br />
-                  Spécialiste <i className="fas fa-cut" /> : Coupe, technique.
+                  spécialité <i className="fas fa-cut" /> : Coupe, technique.
                   <br />
                 </div>
                 <div className="card-reveal">
@@ -161,7 +162,7 @@ class Equipe extends React.Component {
                   </span>
                   Expérience <i className="fas fa-star" /> : 35 ans.
                   <br />
-                  Spécialiste <i className="fas fa-cut" /> : Technique.
+                  spécialité <i className="fas fa-cut" /> : Technique.
                   <br />
                 </div>
                 <div className="card-reveal">
@@ -193,7 +194,7 @@ class Equipe extends React.Component {
                   </span>
                   Expérience <i className="fas fa-star" /> : 30 ans.
                   <br />
-                  Spécialiste <i className="fas fa-cut" /> : Coupe homme
+                  spécialité <i className="fas fa-cut" /> : Coupe homme
                   <br />
                 </div>
                 <div className="card-reveal">
@@ -225,7 +226,7 @@ class Equipe extends React.Component {
                   </span>
                   Expérience <i className="fas fa-star" /> : 10 ans.
                   <br />
-                  Spécialiste <i className="fas fa-cut" /> : Coupe, Technique.
+                  spécialité <i className="fas fa-cut" /> : Coupe, Technique.
                   <br />
                 </div>
                 <div className="card-reveal">
@@ -245,38 +246,6 @@ class Equipe extends React.Component {
                   <img
                     src={
                       process.env.PUBLIC_URL +
-                      '/images/salon-essentiel-melisssa.png'
-                    }
-                    alt="background"
-                    className="activator responsive-img"
-                  />
-                </div>
-                <div className="card-content">
-                  <span className="card-title activator grey-text text-darken-4">
-                    Mélissa
-                    <i className="material-icons right">arrow_forward</i>
-                  </span>
-                  Expérience <i className="fas fa-star" /> : Junior.
-                  <br />
-                  Spécialiste <i className="fas fa-cut" /> : Technique.
-                  <br />
-                </div>
-                <div className="card-reveal">
-                  <span className="card-title grey-text text-darken-4">
-                    Histoire<i className="material-icons right">close</i>
-                  </span>
-                  Déja titulaire de son CAP, Mélissa débordante d’énergie, Est
-                  avec nous pour préparer son Brevet professionnel et nous
-                  apporter son dynamisme
-                </div>
-              </div>
-            </div>
-            <div className="col m4 s12">
-              <div className="card">
-                <div className="card-image waves-effect waves-block waves-light">
-                  <img
-                    src={
-                      process.env.PUBLIC_URL +
                       '/images/salon-essentiel-antonio.png'
                     }
                     alt="background"
@@ -288,17 +257,16 @@ class Equipe extends React.Component {
                     Antonio
                     <i className="material-icons right">arrow_forward</i>
                   </span>
-                  Expérience <i className="fas fa-star" /> : Junior.
+                  Expérience <i className="fas fa-star" /> : 2 ans 
                   <br />
-                  Spécialiste <i className="fas fa-cut" /> : Technique
+                  spécialité <i className="fas fa-cut" /> : coupe homme et barbe 
                   <br />
                 </div>
                 <div className="card-reveal">
                   <span className="card-title grey-text text-darken-4">
                     Histoire<i className="material-icons right">close</i>
                   </span>
-                  Notre junior CAP, Préssé d’apprendre et d’évoluer, Antonio
-                  vous enchantera par son sourire et sa bonne humeur latine.
+                  La jeunesse qui pousse.Notre barber saura mettre en valeur vos barbes broussailleuses et vos cheveux rebelles.
                 </div>
               </div>
             </div>

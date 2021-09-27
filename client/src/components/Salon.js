@@ -59,7 +59,7 @@ class Salon extends React.Component {
             <div className="col m6">
               <img
                 src={
-                  process.env.PUBLIC_URL + "/images/salon-essentiel-salon2.jpg"
+                  process.env.PUBLIC_URL + "/images/salon-essentiel-enter.jpg"
                 }
                 alt="background"
                 className="responsive-img style-img"
