@@ -47,7 +47,7 @@ class Equipe extends React.Component {
         <div className="container">
           <h2 className="font-title">Team</h2>
           <div className="row">
-          <div className="col m4 s12">
+            <div className="col m4 s12">
               <div className="card">
                 <div className="card-image waves-effect waves-block waves-light">
                   <img
@@ -61,20 +61,20 @@ class Equipe extends React.Component {
                 </div>
                 <div className="card-content">
                   <span className="card-title activator grey-text text-darken-4">
-                  Soukaïna 
+                    Soukaïna
                     <i className="material-icons right">arrow_forward</i>
                   </span>
-                  Expérience <i className="fas fa-star" /> : 10 ans 
+                  Expérience <i className="fas fa-star" /> : 10 ans
                   <br />
-                  spécialité <i className="fas fa-cut" /> : coupe et technique 
+                  spécialité <i className="fas fa-cut" /> : coupe et technique
                   <br />
                 </div>
                 <div className="card-reveal">
                   <span className="card-title grey-text text-darken-4">
                     Histoire<i className="material-icons right">close</i>
                   </span>
-                  Dernière arrivée dans l’équipe 
-Artiste dans l’âme elle saura vous proposer la coupe et la couleur qui vous conviendra.
+                  Dernière arrivée dans l’équipe Artiste dans l’âme elle saura
+                  vous proposer la coupe et la couleur qui vous conviendra.
                 </div>
               </div>
             </div>
@@ -246,7 +246,7 @@ Artiste dans l’âme elle saura vous proposer la coupe et la couleur qui vous c
                   <img
                     src={
                       process.env.PUBLIC_URL +
-                      '/images/salon-essentiel-antonio.png'
+                      '/images/salon-essentiel-antonio.jpeg'
                     }
                     alt="background"
                     className="activator responsive-img"
@@ -257,16 +257,17 @@ Artiste dans l’âme elle saura vous proposer la coupe et la couleur qui vous c
                     Antonio
                     <i className="material-icons right">arrow_forward</i>
                   </span>
-                  Expérience <i className="fas fa-star" /> : 2 ans 
+                  Expérience <i className="fas fa-star" /> : 2 ans
                   <br />
-                  spécialité <i className="fas fa-cut" /> : coupe homme et barbe 
+                  spécialité <i className="fas fa-cut" /> : coupe homme et barbe
                   <br />
                 </div>
                 <div className="card-reveal">
                   <span className="card-title grey-text text-darken-4">
                     Histoire<i className="material-icons right">close</i>
                   </span>
-                  La jeunesse qui pousse.Notre barber saura mettre en valeur vos barbes broussailleuses et vos cheveux rebelles.
+                  La jeunesse qui pousse.Notre barber saura mettre en valeur vos
+                  barbes broussailleuses et vos cheveux rebelles.
                 </div>
               </div>
             </div>

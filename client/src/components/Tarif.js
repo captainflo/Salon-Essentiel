@@ -44,7 +44,19 @@ function Tarif() {
         </Slider>
       </div>
       <div className="container">
-        <h2 className="font-title">Prestations de coiffure à la carte</h2>
+        <div className="row">
+          <div className="col m12 s12">
+            <img
+              className="responsive-img"
+              alt="background"
+              src={
+                process.env.PUBLIC_URL +
+                '/images/CARTE_TARIFS_LESSENTIEL_400X600_2022.png'
+              }
+            />
+          </div>
+        </div>
+        {/* <h2 className="font-title">Prestations de coiffure à la carte</h2>
         <div className="row">
           <div className="col m12 s12">
             <table>
@@ -294,7 +306,7 @@ function Tarif() {
           <div className="col m3 s6">
             <div className="circle-avantage">Vos produits à prix coûtant</div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
